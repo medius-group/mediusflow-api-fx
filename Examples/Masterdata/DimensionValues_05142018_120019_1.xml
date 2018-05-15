@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="utf-8"?><ArrayOfDimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION1</DimensionName>
+    <Value>F</Value>
+    <Description>FARR INC.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION1</DimensionName>
+    <Value>FC</Value>
+    <Description>CONCORD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION1</DimensionName>
+    <Value>FG</Value>
+    <Description>Calgary</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION1</DimensionName>
+    <Value>FL</Value>
+    <Description>Laval</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION1</DimensionName>
+    <Value>FO</Value>
+    <Description>OTTAWA</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION1</DimensionName>
+    <Value>FQ</Value>
+    <Description>Quebec</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION1</DimensionName>
+    <Value>FV</Value>
+    <Description>VANCOUVER</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION1</DimensionName>
+    <Value>FW</Value>
+    <Description>WINNIPEG</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1010</Value>
+    <Description>PETTY CASH</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1020</Value>
+    <Description>SAL.&amp;amp; WAGE ACC.HONG KONG BANK</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1025</Value>
+    <Description>CFPS BANK HSBC - CAD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1026</Value>
+    <Description>CFPS BANK SEB - USD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1027</Value>
+    <Description>SEB BK CAD ACCOUNT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1028</Value>
+    <Description>PYMTS BY CREDIT CARD CLEARING</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1029</Value>
+    <Description>Bank suspense postings</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1030</Value>
+    <Description>CURRENT ACC ROYAL BANK CDN</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1031</Value>
+    <Description>USD CREDIT CARD PAYMENTS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1032</Value>
+    <Description>SEB BANK</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1033</Value>
+    <Description>CURR ACC ROYAL BANK US</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1034</Value>
+    <Description>CFPS BANK SEB - EURO</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1035</Value>
+    <Description>Pension-Defined</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1036</Value>
+    <Description>ST INVESTMENTS CONCORD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1049</Value>
+    <Description>OTHER RECEIVABLE ACCRUED</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1050</Value>
+    <Description>ACCTS RECEIVABLE CFPS OTHER</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1051</Value>
+    <Description>ACCTS RECEIVABLE INTERCO</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1052</Value>
+    <Description>ACCTS RECEIV.CHARGEBACK USA</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1053</Value>
+    <Description>AR REVALUATION</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1054</Value>
+    <Description>HVAC Support FEE USA</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1055</Value>
+    <Description>ACCTS RECEIVABLE TRADE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1056</Value>
+    <Description>TRANSFER TO PARKER ET AL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1060</Value>
+    <Description>ACCTS RECEIVABLE OTHER</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1061</Value>
+    <Description>OTHER ST AR Parker</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1062</Value>
+    <Description>SALES TAX AUDIT RECEIVABLE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1070</Value>
+    <Description>ALLOWANCE FOR DOUBTFUL ACCTS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1080</Value>
+    <Description>ACCTS RECEIVABLES EMPLOYEES</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1090</Value>
+    <Description>TRAVEL ADVANCE STANDING</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1095</Value>
+    <Description>TRAVEL ADVANCE TEMPORARY</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1096</Value>
+    <Description>CAMFIL CAIRING INITIATIVE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1097</Value>
+    <Description>GST ON PURCHASE FEDERAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1097B</Value>
+    <Description>HST RITC</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1098</Value>
+    <Description>PST ON PURCHASE QUEBEC</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1099</Value>
+    <Description>DEPOSITS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1105</Value>
+    <Description>DEPOSIT ON PARKER ENG INVENTOR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1106</Value>
+    <Description>PROVISION TG</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1107</Value>
+    <Description>INV FINISHED GOODS CONCORD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1108</Value>
+    <Description>INVENTORY-GOODS IN TRANSIT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1109</Value>
+    <Description>INVENTORY-HOLDING</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1110</Value>
+    <Description>MATERIALS INVENTORY</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1111</Value>
+    <Description>MISC. HARDWARE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1112</Value>
+    <Description>Raw material</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1113</Value>
+    <Description>W.I. P. MATERIAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1113a</Value>
+    <Description>W.I.P. MATERIAL JE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1114</Value>
+    <Description>FINS.GOODS ENG ELM.MFG</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1115</Value>
+    <Description>FINS.GOODS HVAC-S MFG</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1116</Value>
+    <Description>FINS.GOODS HVAC-H MFG</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1117</Value>
+    <Description>FIN.GOODS ENG. KITS MFG.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1118</Value>
+    <Description>FINS.GOODS R.R. MFG</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1119</Value>
+    <Description>FINS. GOODS HVAC-H MFG.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1120</Value>
+    <Description>FINS.GOODS GAS TURBINE MFG</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1121</Value>
+    <Description>FINS.GOODS HP. MFG.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1122</Value>
+    <Description>FINS.GOODS  APC. MFG.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1123</Value>
+    <Description>FINS.GOODS AMERICAN WARM. MFG</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1124</Value>
+    <Description>FINS.GOODS ENG ELM. PUR.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1125</Value>
+    <Description>FINS.GOODS  HVAC-S PUR.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1126</Value>
+    <Description>FINS.GOODS HVAC-H PUR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1127</Value>
+    <Description>FINS.GOODS ENG. KITS PUR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1128</Value>
+    <Description>FINS.GOODS R.R. PURCHASED</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1129</Value>
+    <Description>FINS.GOODS HVAC-H PUR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1130</Value>
+    <Description>FINS.GOODS GAS TURBINE PURCHAS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1131</Value>
+    <Description>FINS.GOODS HP PUR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1132</Value>
+    <Description>FINS.GOODS APC. PUR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1133</Value>
+    <Description>FINS.GOODS AMERICAN WARM PURCH</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1134</Value>
+    <Description>W.I.P. LABOUR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1134a</Value>
+    <Description>W.I.P. LABOUR JE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1135</Value>
+    <Description>MATERIAL VARIANCE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1136</Value>
+    <Description>W.I.P. OVERHEAD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1136a</Value>
+    <Description>W.I.P. OVERHEAD JE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1137</Value>
+    <Description>F&amp;amp;CL allocation (TG)</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1138</Value>
+    <Description>MATERIAL VARIANCE IN QTY</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1139</Value>
+    <Description>MATERIAL VARIANCE WASTE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1140</Value>
+    <Description>LABOUR VARIANCE TIME</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1141</Value>
+    <Description>LABOUR VARIANCE RATE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1142</Value>
+    <Description>LABOUR VARIANCE INDIRECT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1143</Value>
+    <Description>OVERHEAD VARIANCE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1144</Value>
+    <Description>COMPONENTS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1145</Value>
+    <Description>AUTO MFG.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1146</Value>
+    <Description>AUTO PUR.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1147</Value>
+    <Description>Holly Spring Inventory</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1148</Value>
+    <Description>MEXICO Labor</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1149</Value>
+    <Description>COMMERCIAL OVERHEAD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1150</Value>
+    <Description>ENGINE LABOR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1151</Value>
+    <Description>PROGRESS BILLING</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1152</Value>
+    <Description>RAILWAY LABOR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1153</Value>
+    <Description>RAILWAY OVERHEAD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1154</Value>
+    <Description>COMMERCIAL LABOR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1155</Value>
+    <Description>COMMERCIAL OVERHEAD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1156</Value>
+    <Description>COGS accr.on progress billing</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1157</Value>
+    <Description>TENKAY OVERHEAD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1158</Value>
+    <Description>AMERICAN WARMING LABOR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1159</Value>
+    <Description>AMERICAN WARMING OVERHEAD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1160</Value>
+    <Description>WIP COGS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1161</Value>
+    <Description>Sales accr.on progress billing</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1162</Value>
+    <Description>CAMBRIDGE LABOR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1163</Value>
+    <Description>CAMBRIDGE OVERHEAD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1164</Value>
+    <Description>STOCK TRANSFER</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1165</Value>
+    <Description>COGS CUSTOM MAT VAR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1166</Value>
+    <Description>COGS CUSTOM V.O.H. VAR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1170</Value>
+    <Description>Y/E OVERHEAD ADJUSTMENT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1171</Value>
+    <Description>FARR L.A. FIN.GDS VAR.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1172</Value>
+    <Description>MATERIAL VARIANCE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1173</Value>
+    <Description>PHYSICAL INVENTORY COUNT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1174</Value>
+    <Description>ADJUSTMENT INVENTORY</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1175</Value>
+    <Description>ADJUSTMENT VARIANCES</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1176</Value>
+    <Description>COST ROLL-UP RUN</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1177</Value>
+    <Description>COST ROLL UP PART 2</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1178</Value>
+    <Description>INBOUND FREIGHT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1180</Value>
+    <Description>PROGRESS COST</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1181</Value>
+    <Description>INV ADJ. CUSTOM LAB STD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1182</Value>
+    <Description>INV ADJ.CUSTOM MAT STD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1183</Value>
+    <Description>INV ADJ. CUSTOM V.O.H. STD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1184</Value>
+    <Description>INV ADJ. CUSTOM LAB VAR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1185</Value>
+    <Description>INV ADJ.CUSTOM MAT VAR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1186</Value>
+    <Description>INV ADJ. CUSTOM V.O.H. VAR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1193</Value>
+    <Description>FIXED OVERHEAD(INVENT) LAVAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1195</Value>
+    <Description>DEFERRED ENGINEERING</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1196</Value>
+    <Description>Raw mat obsolescence</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1197</Value>
+    <Description>MATERIAL SCRAP ALLOWANCE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1199</Value>
+    <Description>INVENTORY (SALES SAMPLES)</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1400</Value>
+    <Description>PREPAID EXPENSES</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1401</Value>
+    <Description>PREPAID CSST</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1402</Value>
+    <Description>Temp Payable</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1403</Value>
+    <Description>PREPAID FORMATION</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1404</Value>
+    <Description>PREPAID PROJECT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1501</Value>
+    <Description>ACCUM.DEPREC.FURN&amp;amp;OFF.EQUPLAVL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1502</Value>
+    <Description>ACCUM.DEPREC.FURN&amp;amp;OFF.EQUP TOR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1503</Value>
+    <Description>ACCUM.DEPREC.MACH&amp;amp;EQUIP LAVAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1504</Value>
+    <Description>ACCUM.DEPREC.MACH&amp;amp;EQUIP TORONT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1505</Value>
+    <Description>ACCUM.DEPREC. BUILDING LAVAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1506</Value>
+    <Description>Accum.Deprec.-Furn.Fixt NewLab</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1510</Value>
+    <Description>ACCUM.DEPREC.LEASEHOLD IMPROV.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1560</Value>
+    <Description>ACCUM.DEPREC. COMPUTER HARDWAR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1561</Value>
+    <Description>ACCM DEPRECIATION COMP CONCORD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1580</Value>
+    <Description>Accum.Deprec.Vehicles</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1600</Value>
+    <Description>FURN.FIXT.OFFICE EQUIP LAVAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1605</Value>
+    <Description>FURN.FIX.NEW LAB</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1610</Value>
+    <Description>FURN.FIX.&amp;amp;OFF.EQUIP TORONTO</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1640</Value>
+    <Description>DEPREC.POOL RE:DISPOSAL F.F&amp;amp;OE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1650</Value>
+    <Description>Camlab CFPS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1660</Value>
+    <Description>COMPUTER HARDWARE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1661</Value>
+    <Description>COMPUTER EQUIP CONCORD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1700</Value>
+    <Description>MACHINERY &amp;amp; EQUIPMENT  LAVAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1705</Value>
+    <Description>MACHINEY&amp;amp;EQUIP.UCC GOVTGR.LAVL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1706</Value>
+    <Description>MACH.&amp;amp;EQUP.LAVAL INVEST.TAX CR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1710</Value>
+    <Description>MACHINERY &amp;amp; EQUIPMENT TORONTO</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1740</Value>
+    <Description>DEPREC.POOL RE:DISPOSAL MAC&amp;amp;EQ</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1750</Value>
+    <Description>CAPITAL ASSETS IN WIP LAVAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1780</Value>
+    <Description>Vehicles and Rolling Stock</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1800</Value>
+    <Description>BUILDING LAVAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1805</Value>
+    <Description>SECURITY UPGRADES LAVAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1810</Value>
+    <Description>LEASEHOLD IMPROVEMENTS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1840</Value>
+    <Description>DEPREC.POOL RE: DISPOSAL BUILD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1900</Value>
+    <Description>LAND  LAVAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>1999</Value>
+    <Description>INTANGIBLE - QUEBEC CITY</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2000</Value>
+    <Description>INTANGIBLE ACC AMORT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2001</Value>
+    <Description>Deferred Tax Asset</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2010</Value>
+    <Description>BANK LOAN  CURRENT OPERATING</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2050</Value>
+    <Description>PAYABLE CF Laval</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2200</Value>
+    <Description>VOUCHERS PAYABLE FARR CO LA</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2202</Value>
+    <Description>Vouch.Payable Interco CFOklaho</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2206</Value>
+    <Description>MISC.PAY INTERCO</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2207</Value>
+    <Description>Vouch Pay LA Inter-Co</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2208</Value>
+    <Description>ACCRUED FOREIGH EXCHANGE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2231</Value>
+    <Description>AP Interco Revaluation</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2232</Value>
+    <Description>ACCRUED COMMISSIONS FARR LA</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2410</Value>
+    <Description>EMPLOY.INC.TAX DEDUCT SOUR FED</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2420</Value>
+    <Description>EMPLOY.INC.TAX DEDUCT SOUR.QUE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2430</Value>
+    <Description>FEDERATED APPEAL (CENTRAIDE)</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2435</Value>
+    <Description>STAT. HOLIDAYS OFFICE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2440</Value>
+    <Description>UNEMPLOYMENT INSURANCE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2450</Value>
+    <Description>CANADA PENSION PLAN</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2460</Value>
+    <Description>QUEBEC PENSION PLAN</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2462</Value>
+    <Description>REGIME QUÉBECOIS ASS. PENSION</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2465</Value>
+    <Description>QUEBEC PAYROLL TRAINING TAX</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2470</Value>
+    <Description>GROUP INSURANCE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2475</Value>
+    <Description>QUEBEC HEALTH INSURANCE PLAN</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2480</Value>
+    <Description>UNION DUES</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2482</Value>
+    <Description>PLANT PENSION</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2485</Value>
+    <Description>ONTARIO HEALTH INSURANCE PLAN</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2490</Value>
+    <Description>FONDS DE SOLIDARITE FTQ</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2492</Value>
+    <Description>SPECIAL DEDUCTIONS/GARNISHMENT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2495</Value>
+    <Description>CANADA SAVINGS BONDS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2497</Value>
+    <Description>SOCIAL CLUB</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2500</Value>
+    <Description>GST ON SALES FEDERAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2501</Value>
+    <Description>PST ON SALES QUEBEC</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2510</Value>
+    <Description>B.C. SALES TAX</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2520</Value>
+    <Description>ONTARIO SALES TAX</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2530</Value>
+    <Description>GST RECEIVABLE/PAYABLE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2531</Value>
+    <Description>PST RECEIVABLE/PAYABLE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2540</Value>
+    <Description>MANITOBA SALES TAX</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2555</Value>
+    <Description>OKLHOMA SALES TAX</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2556</Value>
+    <Description>ALL PROV.TAX CODE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2560</Value>
+    <Description>NON-RESIDENT WITHHOLDING TAX</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2570</Value>
+    <Description>PREPAID INCOME</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2595</Value>
+    <Description>AP exchange revaluation</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2596</Value>
+    <Description>Concord Clearing Account</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2597</Value>
+    <Description>Accrued Exp Other</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2598</Value>
+    <Description>Sales Tax Audit Payable</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2599</Value>
+    <Description>PAYABLE INTERCO</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2600</Value>
+    <Description>VOUCHERS PAYABLE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2601</Value>
+    <Description>DEFERRED CHARGES</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2602</Value>
+    <Description>ACCRUED EXPENSES CONCORD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2603</Value>
+    <Description>SALARIES &amp;amp; WAGES PAYALBE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2604</Value>
+    <Description>Interest Payable to Group</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2605</Value>
+    <Description>ACCRUED VOUCHERS PAYABLE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2606</Value>
+    <Description>ACCRUED INVENTORY PAYABLE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2607</Value>
+    <Description>LOAN PAYABLE SWEDEN</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2608</Value>
+    <Description>Accrued Social Activity Empl.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2609</Value>
+    <Description>RESERVE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2610</Value>
+    <Description>CBL PENDING REBATES PRIOR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2611</Value>
+    <Description>CBL PENDING RBATES CURRENT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2612</Value>
+    <Description>Accrual Benefit</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2615</Value>
+    <Description>ACCRUED TAXES</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2617</Value>
+    <Description>ACCRUED HEAT LIGHT&amp;amp;POWER LAVAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2618</Value>
+    <Description>ACCRUED HEAT LIGHT*POWER TOR</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2619</Value>
+    <Description>ACCRUED STATUTORY HOLIDAYS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2620</Value>
+    <Description>ACCRUED PROVISION CFPS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2625</Value>
+    <Description>ACCRUED LEGAL &amp;amp; AUDIT FEES</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2630</Value>
+    <Description>ACCRUED REBATES AND TPC</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2631</Value>
+    <Description>CFPS-Accr.Guar.&amp;amp; Replacements</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2632</Value>
+    <Description>CFPS accr.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2633</Value>
+    <Description>Acc.Old Pension cotisation det</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2634</Value>
+    <Description>ACCRUED NEW PENSION PLAN</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2635</Value>
+    <Description>ACCR.OLD PENSION PLAN 5.6%</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2636</Value>
+    <Description>ACCRUED PROFIT SHARING</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2640</Value>
+    <Description>ACCRUED COMMISSIONS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2645</Value>
+    <Description>ACCRD GUARANTEES &amp;amp; REPLACEMENT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2650</Value>
+    <Description>ACCRUED WAGES  PLANT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2655</Value>
+    <Description>ACCRUED SALARIES  OFFICE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2660</Value>
+    <Description>ACCRUED VACATION PAY LAVAL PLT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2661</Value>
+    <Description>ACCRD VACATION PAY CONC.PLANT</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2665</Value>
+    <Description>ACCRD.VACATION PAY LVL&amp;amp;TOR OFF</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2669</Value>
+    <Description>WORKMENS COMP. RESERVE</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2670</Value>
+    <Description>ACCRUED C.S.S.T. LAVAL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2671</Value>
+    <Description>ACCRUED WORKMENS COMP TORONTO</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2672</Value>
+    <Description>COMMISSION NORMES DU TRAVAIL</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2674</Value>
+    <Description>CUSTOMER CREDITS NOT USED</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2675</Value>
+    <Description>ACCRUED SUPPORT COST ALLOCAT.</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2677</Value>
+    <Description>WIP income-CFPS</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2678</Value>
+    <Description>LT LIABILITY CONCORD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue><DimensionValue>
+    <CompanyId>020</CompanyId>
+    <DimensionName>DIMENSION2</DimensionName>
+    <Value>2679</Value>
+    <Description>OTHER CURRENT LIAB CONCORD</Description>
+    <IsActive>TRUE</IsActive>
+  </DimensionValue></ArrayOfDimensionValue>

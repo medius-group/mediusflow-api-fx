@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RequestMessage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CorrelationKey>FX;EXPENSE;LC;TSC1;Inv223344556677;2018-02-27</CorrelationKey>
+  <Tag>FINAL</Tag>
+  <MessageContent>
+    <DocumentId>50</DocumentId>
+    <BalanceCodeString>
+      <Dimensions />
+      <Amount>100</Amount>
+    </BalanceCodeString>
+    <CompanyExternalSystemId>company[LC]</CompanyExternalSystemId>
+    <CompanyId>LC</CompanyId>
+    <CompanyName>Large Corp</CompanyName>
+    <CompanyIdentifiers>
+      <IntegrationCompanyIdentifier>
+        <IdentifierType>ExternalSystemIdentifier</IdentifierType>
+        <IdentifierValue>company[LC]</IdentifierValue>
+      </IntegrationCompanyIdentifier>
+      <IntegrationCompanyIdentifier>
+        <IdentifierType>CompanyNameIdentifier</IdentifierType>
+        <IdentifierValue>Large Corp</IdentifierValue>
+      </IntegrationCompanyIdentifier>
+    </CompanyIdentifiers>
+    <CompanyOrganizationNumber>123456-1234</CompanyOrganizationNumber>
+    <CurrencyCode>USD</CurrencyCode>
+    <CurrencyExternalSystemId>USD</CurrencyExternalSystemId>
+    <CurrencyRate>1</CurrencyRate>
+    <IsCurrencyRateImported>false</IsCurrencyRateImported>
+    <OriginalDocumentType>EXPENSE</OriginalDocumentType>
+    <DueDate>2018-02-28T00:00:00Z</DueDate>
+    <FinalBookingDate>2018-02-27T00:00:00Z</FinalBookingDate>
+    <ImagePath>https://cloud.mediusflow.com/mediusflowfxQA/Backend/Rest/MediaService/image/42a33eeb-eead-46ec-9526-5678664e4304/pdf/pages/1?tag=DocumentImage</ImagePath>
+    <DocumentURL>https://cloud.mediusflow.com/mediusflowfxQA/#Tasks/ShowDocument/50</DocumentURL>
+    <InvoiceDate>2018-02-27T00:00:00Z</InvoiceDate>
+    <InvoiceNumber>Inv223344556677</InvoiceNumber>
+    <NetAmount>100</NetAmount>
+    <PaymentTerm>1</PaymentTerm>
+    <PreferredPaymentDate>2018-02-28T00:00:00Z</PreferredPaymentDate>
+    <PreliminaryBookingDate>2018-02-27T00:00:00Z</PreliminaryBookingDate>
+    <PreliminaryVoucherNumber />
+    <FinalVoucherNumber />
+    <RoundingAmount>0</RoundingAmount>
+    <SupplierExternalSystemId>company[LC];TSC1</SupplierExternalSystemId>
+    <SupplierId>TSC1</SupplierId>
+    <SupplierIdentifiers>
+      <IntegrationSupplierIdentifier>
+        <IdentifierType>EXTERNAL_SYSTEM_ID</IdentifierType>
+        <IdentifierValue>company[LC];TSC1</IdentifierValue>
+      </IntegrationSupplierIdentifier>
+      <IntegrationSupplierIdentifier>
+        <IdentifierType>FINANCIAL_SYSTEM</IdentifierType>
+        <IdentifierValue>TSC1</IdentifierValue>
+      </IntegrationSupplierIdentifier>
+    </SupplierIdentifiers>
+    <SupplierName>The service company</SupplierName>
+    <TaxAmount>20</TaxAmount>
+    <TotalAmount>120</TotalAmount>
+    <TotalCodedNetAmount>120</TotalCodedNetAmount>
+    <TotalCodedTaxAmount>0</TotalCodedTaxAmount>
+    <ERPId>FX</ERPId>
+    <InvoiceLines>
+      <IntegrationSupplierInvoiceLine>
+        <Amount>100</Amount>
+        <LineNumber>1</LineNumber>
+        <Quantity>1</Quantity>
+        <QuantityUnit>-</QuantityUnit>
+        <UnitPrice>100</UnitPrice>
+      </IntegrationSupplierInvoiceLine>
+    </InvoiceLines>
+    <CodingLines>
+      <IntegrationCodingLine>
+        <Dimensions>
+          <Dimension1>4040</Dimension1>
+          <Dimension2>01</Dimension2>
+        </Dimensions>
+        <Amount>100</Amount>
+        <GrossAmount>100</GrossAmount>
+        <InvoiceLineNumber>1</InvoiceLineNumber>
+        <CodingLineNumber>1</CodingLineNumber>
+        <TaxIndicator1>P25</TaxIndicator1>
+        <IsEnabled>true</IsEnabled>
+        <Tag />
+        <POConnectionLineNumbers />
+      </IntegrationCodingLine>
+      <IntegrationCodingLine>
+        <Dimensions>
+          <Dimension1>4040</Dimension1>
+          <Dimension2>02</Dimension2>
+        </Dimensions>
+        <Amount>20</Amount>
+        <GrossAmount>20</GrossAmount>
+        <InvoiceLineNumber xsi:nil="true" />
+        <CodingLineNumber>2</CodingLineNumber>
+        <TaxIndicator1>P25</TaxIndicator1>
+        <IsEnabled>true</IsEnabled>
+        <Tag />
+        <POConnectionLineNumbers />
+      </IntegrationCodingLine>
+    </CodingLines>
+    <TaxLines>
+      <IntegrationTaxLine>
+        <Dimensions />
+        <Amount>0</Amount>
+        <NetAmount>100</NetAmount>
+        <GrossAmount>100</GrossAmount>
+        <CodingLineNumber>1</CodingLineNumber>
+        <DeductiblePercentage>0</DeductiblePercentage>
+        <Percentage>25</Percentage>
+        <TaxCode>25</TaxCode>
+        <TaxLineNumber>1</TaxLineNumber>
+        <TaxIndicator1>P25</TaxIndicator1>
+      </IntegrationTaxLine>
+      <IntegrationTaxLine>
+        <Dimensions />
+        <Amount>0</Amount>
+        <NetAmount>20</NetAmount>
+        <GrossAmount>20</GrossAmount>
+        <CodingLineNumber>2</CodingLineNumber>
+        <DeductiblePercentage>0</DeductiblePercentage>
+        <Percentage>25</Percentage>
+        <TaxCode>25</TaxCode>
+        <TaxLineNumber>2</TaxLineNumber>
+        <TaxIndicator1>P25</TaxIndicator1>
+      </IntegrationTaxLine>
+    </TaxLines>
+    <POLines />
+    <POConnectionLines />
+    <DeviationLines />
+    <ExceptionTypeConnections />
+    <IsPaymentBlocked>false</IsPaymentBlocked>
+  </MessageContent>
+</RequestMessage>

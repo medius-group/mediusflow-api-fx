@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTaxGroup xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <TaxGroup>
+  	<CompanyId>GBSI</CompanyId>
+  	<GroupName>AP-EU</GroupName>
+  	<Description>AP-EU</Description>
+    <CustomField_Boolean1 i:nil="true" />
+    <CustomField_Boolean2 i:nil="true" />
+    <CustomField_Boolean3 i:nil="true" />
+    <CustomField_Boolean4 i:nil="true" />
+    <CustomField_Boolean5 i:nil="true" />
+    <CustomField_DateTime1 i:nil="true" />
+    <CustomField_DateTime2 i:nil="true" />
+    <CustomField_DateTime3 i:nil="true" />
+    <CustomField_DateTime4 i:nil="true" />
+    <CustomField_DateTime5 i:nil="true" />
+    <CustomField_Numeric1 i:nil="true" />
+    <CustomField_Numeric2 i:nil="true" />
+    <CustomField_Numeric3 i:nil="true" />
+    <CustomField_Numeric4 i:nil="true" />
+    <CustomField_Numeric5 i:nil="true" />
+    <CustomField_Text1 i:nil="true" />
+    <CustomField_Text2 i:nil="true" />
+    <CustomField_Text3 i:nil="true" />
+    <CustomField_Text4 i:nil="true" />
+    <CustomField_Text5 i:nil="true" />
+    <IndicatorNumber>1</IndicatorNumber>
+    <IsActive>true</IsActive>
+    <Lines>
+      <TaxCode>
+        <CustomField_Boolean1 i:nil="true" />
+        <CustomField_Boolean2 i:nil="true" />
+        <CustomField_Boolean3 i:nil="true" />
+        <CustomField_Boolean4 i:nil="true" />
+        <CustomField_Boolean5 i:nil="true" />
+        <CustomField_DateTime1 i:nil="true" />
+        <CustomField_DateTime2 i:nil="true" />
+        <CustomField_DateTime3 i:nil="true" />
+        <CustomField_DateTime4 i:nil="true" />
+        <CustomField_DateTime5 i:nil="true" />
+        <CustomField_Numeric1 i:nil="true" />
+        <CustomField_Numeric2 i:nil="true" />
+        <CustomField_Numeric3 i:nil="true" />
+        <CustomField_Numeric4 i:nil="true" />
+        <CustomField_Numeric5 i:nil="true" />
+        <CustomField_Text1 i:nil="true" />
+        <CustomField_Text2 i:nil="true" />
+        <CustomField_Text3 i:nil="true" />
+        <CustomField_Text4 i:nil="true" />
+        <CustomField_Text5 i:nil="true" />
+        <Code>EU19</Code>
+        <Deductible>100.00000</Deductible>
+        <Description>EU19</Description>
+        <Dimensions>
+          <Dimension1>VAT Account</Dimension1>
+        </Dimensions>
+        <IsActive>true</IsActive>
+        <Percentage>0.00000</Percentage>
+      </TaxCode>
+      <TaxCode>
+        <CustomField_Boolean1 i:nil="true" />
+        <CustomField_Boolean2 i:nil="true" />
+        <CustomField_Boolean3 i:nil="true" />
+        <CustomField_Boolean4 i:nil="true" />
+        <CustomField_Boolean5 i:nil="true" />
+        <CustomField_DateTime1 i:nil="true" />
+        <CustomField_DateTime2 i:nil="true" />
+        <CustomField_DateTime3 i:nil="true" />
+        <CustomField_DateTime4 i:nil="true" />
+        <CustomField_DateTime5 i:nil="true" />
+        <CustomField_Numeric1 i:nil="true" />
+        <CustomField_Numeric2 i:nil="true" />
+        <CustomField_Numeric3 i:nil="true" />
+        <CustomField_Numeric4 i:nil="true" />
+        <CustomField_Numeric5 i:nil="true" />
+        <CustomField_Text1 i:nil="true" />
+        <CustomField_Text2 i:nil="true" />
+        <CustomField_Text3 i:nil="true" />
+        <CustomField_Text4 i:nil="true" />
+        <CustomField_Text5 i:nil="true" />
+        <Code>SE1</Code>
+        <Deductible>100.00000</Deductible>
+        <Description>SE1</Description>
+        <Dimensions>
+          <Dimension1>VAT Account</Dimension1>
+        </Dimensions>
+        <IsActive>true</IsActive>
+        <Percentage>0.00000</Percentage>
+      </TaxCode>
+    </Lines>
+  </TaxGroup>
+</ArrayOfTaxGroup>

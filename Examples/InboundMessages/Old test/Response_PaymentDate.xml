@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<IntegrationResponseMessage>
+	<CompanyId>company1</CompanyId>
+	<SupplierId>80729</SupplierId>
+	<InvoiceNumber>invoice 1</InvoiceNumber>
+	<InvoiceDate>2017-06-16</InvoiceDate>	
+	<PostingType>ACTUAL_PAYMENT_DATE_REQ</PostingType>
+	<PaymentDate>2017-06-18</PaymentDate>	
+	<InvoiceType>EXPENSE</InvoiceType>	
+	<VoucherNumber></VoucherNumber>
+	<ErrorMessage></ErrorMessage>
+</IntegrationResponseMessage>

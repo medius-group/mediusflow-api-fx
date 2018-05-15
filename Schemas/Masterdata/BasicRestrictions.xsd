@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ArrayOfBasicRestriction" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="ArrayOfBasicRestriction" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BasicRestriction">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="CompanyId" type="xs:string" minOccurs="1" />
+              <xs:element name="ControllingDimensionNumber" type="xs:string" minOccurs="1" />
+              <xs:element name="ControllingDimensionValue" type="xs:string" minOccurs="1" />
+              <xs:element name="RestrictedDimensions" minOccurs="1">
+                <xs:complexType>
+                  <xs:choice minOccurs="1" maxOccurs="unbounded">
+                    <xs:element name="IntegrationRestrictedDimension">
+                      <xs:complexType>
+                        <xs:all>
+                          <xs:element name="RestrictionType" type="xs:string" minOccurs="1" />
+                          <xs:element name="RestrictedDimensionNumber" type="xs:string" minOccurs="1" />
+                          <xs:element name="RestrictedDimensionValue" type="xs:string" minOccurs="1" />
+                        </xs:all>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ArrayOfSupplier" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="ArrayOfSupplier" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Supplier">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="City" type="xs:string" minOccurs="0" />
+              <xs:element name="State" type="xs:string" minOccurs="0" />
+              <xs:element name="Country" type="xs:string" minOccurs="0" />
+              <xs:element name="StreetAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="Zip" type="xs:string" minOccurs="0" />
+              <xs:element name="CompanyId" type="xs:string" minOccurs="1" />
+              <xs:element name="PaymentTermCompanyId" type="xs:string" minOccurs="0" />
+              <xs:element name="SupplierId" type="xs:string" minOccurs="1" />
+              <xs:element name="Name" type="xs:string" minOccurs="1" />
+              <xs:element name="PaymentTerm" type="xs:string" minOccurs="1" />
+              <xs:element name="IsActive" type="xs:boolean" minOccurs="0" />
+              <xs:element name="TaxIndicator1" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxIndicator2" type="xs:string" minOccurs="0" />
+              <xs:element name="CurrencyCode" type="xs:string" minOccurs="1" />
+              <xs:element name="EmailAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax" type="xs:string" minOccurs="0" />
+              <xs:element name="Telephone" type="xs:string" minOccurs="0" />
+              <xs:element name="Homepage" type="xs:string" minOccurs="0" />
+              <xs:element name="Identifiers" minOccurs="0">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="SupplierIdentifier">
+                      <xs:complexType>
+                        <xs:all>
+                          <xs:element name="IdentifierType" type="xs:string" minOccurs="1" />
+                          <xs:element name="IdentifierValue" type="xs:string" minOccurs="1" />
+                        </xs:all>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="PaymentDetails" minOccurs="0">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="PaymentDetail">
+                      <xs:complexType>
+                        <xs:all>
+                          <xs:element name="PaymentDetailId" type="xs:string" minOccurs="0" />
+                          <xs:element name="Description" type="xs:string" minOccurs="1" />
+                          <xs:element name="IsActive" type="xs:boolean" minOccurs="0" />
+                          <xs:element name="Identifiers" minOccurs="1">
+                            <xs:complexType>
+                              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                <xs:element name="Value" type="xs:string"/>
+                              </xs:choice>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:all>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="LedgerDimension1" type="xs:string" minOccurs="0" />
+              <xs:element name="LedgerDimension2" type="xs:string" minOccurs="0" />
+              <xs:element name="LedgerDimension3" type="xs:string" minOccurs="0" />
+              <xs:element name="LedgerDimension4" type="xs:string" minOccurs="0" />
+              <xs:element name="LedgerDimension5" type="xs:string" minOccurs="0" />
+              <xs:element name="LedgerDimension6" type="xs:string" minOccurs="0" />
+              <xs:element name="LedgerDimension7" type="xs:string" minOccurs="0" />
+              <xs:element name="LedgerDimension8" type="xs:string" minOccurs="0" />
+              <xs:element name="LedgerDimension9" type="xs:string" minOccurs="0" />
+              <xs:element name="LedgerDimension10" type="xs:string" minOccurs="0" />
+              <xs:element name="LedgerDimension11" type="xs:string" minOccurs="0" />
+              <xs:element name="LedgerDimension12" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxDimension1" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxDimension2" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxDimension3" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxDimension4" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxDimension5" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxDimension6" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxDimension7" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxDimension8" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxDimension9" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxDimension10" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxDimension11" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxDimension12" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomField_Boolean1" type="xs:boolean" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Boolean2" type="xs:boolean" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Boolean3" type="xs:boolean" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Boolean4" type="xs:boolean" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Boolean5" type="xs:boolean" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_DateTime1" type="xs:date" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_DateTime2" type="xs:date" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_DateTime3" type="xs:date" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_DateTime4" type="xs:date" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_DateTime5" type="xs:date" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Numeric1" type="xs:decimal" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Numeric2" type="xs:decimal" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Numeric3" type="xs:decimal" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Numeric4" type="xs:decimal" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Numeric5" type="xs:decimal" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Text1" type="xs:string" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Text2" type="xs:string" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Text3" type="xs:string" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Text4" type="xs:string" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Text5" type="xs:string" nillable="true" minOccurs="0" />
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

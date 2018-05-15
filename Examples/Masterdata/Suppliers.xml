@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSupplier>
+	<Supplier>
+		<City>Mjölby</City>
+		<State>CA</State>
+		<Country>Sverige</Country>
+		<StreetAddress>street 123</StreetAddress>
+		<Zip>123</Zip>
+		<CompanyId>GBSI</CompanyId>
+		<SupplierId>MyExampleSupplierName_Id</SupplierId>
+		<Name>MyExampleSupplierName</Name>
+		<PaymentTerm>1</PaymentTerm>
+		<IsActive>1</IsActive>
+		<LedgerDimension1>Supplier Account</LedgerDimension1>
+		<TaxDimension1>VAT Account</TaxDimension1>
+		<TaxIndicator1>AP-EU</TaxIndicator1>
+		<TaxIndicator2></TaxIndicator2>
+		<CurrencyCode>GBP</CurrencyCode>
+		<EmailAddress>supplier@MyExampleSupplierName.com</EmailAddress>
+		<Homepage>www.MyExampleSupplierName.com</Homepage>
+		<Identifiers>
+			<SupplierIdentifier>
+				<IdentifierType>BANK_ACCOUNT</IdentifierType>
+				<IdentifierValue>IDENTIFIER-MyExampleSupplierName</IdentifierValue>
+			</SupplierIdentifier>
+			<SupplierIdentifier>
+				<IdentifierType>EAN_NUMBER</IdentifierType>
+				<IdentifierValue>7_3128211_EAN</IdentifierValue>
+			</SupplierIdentifier>
+			<SupplierIdentifier>
+				<IdentifierType>ORGANIZATION_NUMBER</IdentifierType>
+				<IdentifierValue>IMO_28211</IdentifierValue>
+			</SupplierIdentifier>
+			<SupplierIdentifier>
+				<IdentifierType>FINANCIAL_SYSTEM</IdentifierType>
+				<IdentifierValue>9100</IdentifierValue>
+			</SupplierIdentifier>
+			<SupplierIdentifier>
+				<IdentifierType>VAT_REGISTRATION_NUMBER</IdentifierType>
+				<IdentifierValue>SE5490797901</IdentifierValue>
+			</SupplierIdentifier>
+		</Identifiers>
+		<PaymentDetails>
+			<PaymentDetail>
+				<PaymentDetailId>0100919995</PaymentDetailId>
+				<Description>PaymentDetails description 1</Description>
+				<IsActive>1</IsActive>
+				<Identifiers>
+					<Value>0100919995</Value>
+				</Identifiers>
+			</PaymentDetail>
+			<PaymentDetail>
+				<PaymentDetailId>987654321ABC</PaymentDetailId>
+				<Description>PaymentDetails description 2</Description>
+				<IsActive>1</IsActive>
+				<Identifiers>
+					<Value>987654321ABC</Value>
+				</Identifiers>
+			</PaymentDetail>
+		</PaymentDetails>		
+	</Supplier>
+</ArrayOfSupplier>

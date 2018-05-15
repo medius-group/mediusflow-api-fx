@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBasicRestriction xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<BasicRestriction>
+		<CompanyId>GBSI</CompanyId>
+		<ControllingDimensionNumber>DIMENSION1</ControllingDimensionNumber>
+		<ControllingDimensionValue>Supplier Account</ControllingDimensionValue>	
+		<RestrictedDimensions>
+			<IntegrationRestrictedDimension>
+				<RestrictionType>Forbidden</RestrictionType>
+				<RestrictedDimensionNumber>DIMENSION3</RestrictedDimensionNumber>
+				<RestrictedDimensionValue></RestrictedDimensionValue>				
+			</IntegrationRestrictedDimension>
+			<IntegrationRestrictedDimension>
+				<RestrictionType>Fixed</RestrictionType>
+				<RestrictedDimensionNumber>DIMENSION2</RestrictedDimensionNumber>
+				<RestrictedDimensionValue>CC21</RestrictedDimensionValue>				
+			</IntegrationRestrictedDimension>
+			<IntegrationRestrictedDimension>
+				<RestrictionType>Required</RestrictionType>
+				<RestrictedDimensionNumber>DIMENSION4</RestrictedDimensionNumber>
+				<RestrictedDimensionValue></RestrictedDimensionValue>				
+			</IntegrationRestrictedDimension>
+			<IntegrationRestrictedDimension>
+				<RestrictionType>Required</RestrictionType>
+				<RestrictedDimensionNumber>DIMENSION5</RestrictedDimensionNumber>
+				<RestrictedDimensionValue>CC22</RestrictedDimensionValue>				
+			</IntegrationRestrictedDimension>				
+		</RestrictedDimensions>
+	</BasicRestriction>
+</ArrayOfBasicRestriction>

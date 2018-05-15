@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ArrayOfPurchaseOrder" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="ArrayOfPurchaseOrder" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PurchaseOrder">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="CompanyId" type="xs:string" minOccurs="1" />
+              <xs:element name="Supplier" type="xs:string" minOccurs="1" />
+              <xs:element name="SupplierCompanyId" type="xs:string" minOccurs="0" />
+              <xs:element name="OrderIdentifier" type="xs:string" minOccurs="1" />
+              <xs:element name="CurrencyCode" type="xs:string" minOccurs="1" />
+              <xs:element name="Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RegisterDate" type="xs:date" minOccurs="0" />
+              <xs:element name="DueDate" type="xs:date" minOccurs="0" nillable="true" />
+              <xs:element name="IsActive" type="xs:boolean" minOccurs="0" />
+              <xs:element name="CustomField_Boolean1" type="xs:boolean" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Boolean2" type="xs:boolean" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Boolean3" type="xs:boolean" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Boolean4" type="xs:boolean" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Boolean5" type="xs:boolean" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_DateTime1" type="xs:date" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_DateTime2" type="xs:date" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_DateTime3" type="xs:date" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_DateTime4" type="xs:date" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_DateTime5" type="xs:date" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Numeric1" type="xs:decimal" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Numeric2" type="xs:decimal" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Numeric3" type="xs:decimal" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Numeric4" type="xs:decimal" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Numeric5" type="xs:decimal" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Text1" type="xs:string" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Text2" type="xs:string" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Text3" type="xs:string" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Text4" type="xs:string" nillable="true" minOccurs="0" />
+              <xs:element name="CustomField_Text5" type="xs:string" nillable="true" minOccurs="0" />
+              <xs:element name="Reference" type="xs:string" minOccurs="0" />
+              <xs:element name="PurchaseOrderLines" minOccurs="0">
+                <xs:complexType>
+                  <xs:choice minOccurs="1" maxOccurs="unbounded">
+                    <xs:element name="PurchaseOrderLine">
+                      <xs:complexType>
+                        <xs:all>
+                          <xs:element name="Amount" type="xs:decimal" minOccurs="1" />
+            						  <xs:element name="CustomField_Boolean1" type="xs:boolean" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Boolean2" type="xs:boolean" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Boolean3" type="xs:boolean" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Boolean4" type="xs:boolean" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Boolean5" type="xs:boolean" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_DateTime1" type="xs:date" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_DateTime2" type="xs:date" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_DateTime3" type="xs:date" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_DateTime4" type="xs:date" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_DateTime5" type="xs:date" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Numeric1" type="xs:decimal" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Numeric2" type="xs:decimal" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Numeric3" type="xs:decimal" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Numeric4" type="xs:decimal" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Numeric5" type="xs:decimal" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Text1" type="xs:string" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Text2" type="xs:string" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Text3" type="xs:string" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Text4" type="xs:string" nillable="true" minOccurs="0" />
+            						  <xs:element name="CustomField_Text5" type="xs:string" nillable="true" minOccurs="0" />
+            						  <xs:element name="CodingLines" minOccurs="1">
+                            <xs:complexType>
+                              <xs:choice  minOccurs="1" maxOccurs="unbounded">
+                                <xs:element name="PreCodingLine">
+                                  <xs:complexType>
+                                    <xs:all>
+                                      <xs:element name="Amount" type="xs:decimal" minOccurs="0" />
+                                      <xs:element name="Dimensions" minOccurs="1">
+                                        <xs:complexType>
+                                          <xs:all>
+                                          <xs:element name="DimensionsCompanyId" type="xs:string" minOccurs="0" />
+                    											<xs:element name="Dimension1" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="Dimension10" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="Dimension11" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="Dimension12" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="Dimension2" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="Dimension3" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="Dimension4" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="Dimension5" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="Dimension6" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="Dimension7" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="Dimension8" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="Dimension9" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="FreeText1" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="FreeText2" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="FreeText3" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="FreeText4" type="xs:string" nillable="true" minOccurs="0" />
+                    											<xs:element name="FreeText5" type="xs:string" nillable="true" minOccurs="0" />
+                                          </xs:all>
+                                        </xs:complexType>
+                                      </xs:element>
+									                   <xs:element name="Type" type="xs:string" minOccurs="0" />
+                                    </xs:all>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:choice>
+                            </xs:complexType>
+                          </xs:element>
+						              <xs:element name="ConversionFactor" type="xs:decimal" minOccurs="0" />
+					                <xs:element name="DeliveryLines" minOccurs="0">
+                            <xs:complexType>
+                              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                <xs:element name="DeliveryLine">
+                                  <xs:complexType>
+                                    <xs:all>
+                  									  <xs:element name="CustomField_Boolean1" type="xs:boolean" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Boolean2" type="xs:boolean" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Boolean3" type="xs:boolean" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Boolean4" type="xs:boolean" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Boolean5" type="xs:boolean" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_DateTime1" type="xs:date" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_DateTime2" type="xs:date" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_DateTime3" type="xs:date" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_DateTime4" type="xs:date" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_DateTime5" type="xs:date" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Numeric1" type="xs:decimal" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Numeric2" type="xs:decimal" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Numeric3" type="xs:decimal" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Numeric4" type="xs:decimal" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Numeric5" type="xs:decimal" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Text1" type="xs:string" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Text2" type="xs:string" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Text3" type="xs:string" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Text4" type="xs:string" nillable="true" minOccurs="0" />
+                  									  <xs:element name="CustomField_Text5" type="xs:string" nillable="true" minOccurs="0" />
+                                      <xs:element name="Amount" type="xs:decimal" minOccurs="1" />
+                                      <xs:element name="ConversionFactor" type="xs:decimal" minOccurs="0" />
+                                      <xs:element name="DeliveryDate" type="xs:date" minOccurs="1" />
+                                      <xs:element name="DeliveryNote" type="xs:string" nillable="true" minOccurs="0" />
+                                      <xs:element name="DeliveryNumber" type="xs:string" minOccurs="1" />
+                                      <xs:element name="IsActive" type="xs:boolean" minOccurs="0" />
+                                      <xs:element name="Quantity" type="xs:decimal" minOccurs="1" />
+                                      <xs:element name="ReleaseNumber" type="xs:string" nillable="true" minOccurs="0" />
+                                      <xs:element name="TotalInvoicedQuantity" type="xs:decimal" nillable="true" minOccurs="0" />
+                                      <xs:element name="Unit" type="xs:string" minOccurs="1" />
+                                      <xs:element name="UnitPrice" type="xs:decimal" minOccurs="1" />
+                                    </xs:all>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:choice>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="IsActive" type="xs:boolean" minOccurs="0" />
+                          <xs:element name="IsServiceBased" type="xs:boolean" minOccurs="0" />
+                          <xs:element name="ItemDescription" type="xs:string" minOccurs="1" />
+                          <xs:element name="ItemId" type="xs:string" minOccurs="0" />
+                          <xs:element name="ItemNumber" type="xs:string" minOccurs="1" />
+                          <xs:element name="LineNumber" type="xs:string" minOccurs="1" />
+                          <xs:element name="Quantity" type="xs:decimal" minOccurs="1" />
+                          <xs:element name="Reference" type="xs:string" minOccurs="0" />
+                          <xs:element name="TaxIndicator1" type="xs:string" minOccurs="0" />
+                          <xs:element name="TaxIndicator2" type="xs:string" minOccurs="0" />
+                          <xs:element name="TaxIndicatorsCompanyId" type="xs:string" minOccurs="0" />
+                          <xs:element name="Unit" type="xs:string" minOccurs="1" />
+                          <xs:element name="UnitPrice" type="xs:decimal" minOccurs="1" />
+                        </xs:all>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

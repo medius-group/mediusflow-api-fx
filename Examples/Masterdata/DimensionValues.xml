@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDimensionValue xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<DimensionValue>
+		<CompanyId>GBSI</CompanyId>
+		<DimensionName>DIMENSION1</DimensionName>
+		<Value>4010</Value>
+		<Description>Cost of direct material</Description>
+		<IsActive>true</IsActive>
+		<CustomField_Boolean1 i:nil="true" />
+		<CustomField_Boolean2 i:nil="true" />
+		<CustomField_Boolean3 i:nil="true" />
+		<CustomField_Boolean4 i:nil="true" />
+		<CustomField_Boolean5 i:nil="true" />
+		<CustomField_DateTime1 i:nil="true" />
+		<CustomField_DateTime2 i:nil="true" />
+		<CustomField_DateTime3 i:nil="true" />
+		<CustomField_DateTime4 i:nil="true" />
+		<CustomField_DateTime5 i:nil="true" />
+		<CustomField_Numeric1 i:nil="true" />
+		<CustomField_Numeric2 i:nil="true" />
+		<CustomField_Numeric3 i:nil="true" />
+		<CustomField_Numeric4 i:nil="true" />
+		<CustomField_Numeric5 i:nil="true" />
+		<CustomField_Text1 i:nil="true" />
+		<CustomField_Text2 i:nil="true" />
+		<CustomField_Text3 i:nil="true" />
+		<CustomField_Text4 i:nil="true" />
+		<CustomField_Text5 i:nil="true" />	
+		<TaxIndicator1>IND1</TaxIndicator1>
+		<TaxIndicator2 i:nil="true" />
+	</DimensionValue>
+	<DimensionValue>
+		<CompanyId>GBSI</CompanyId>
+		<DimensionName>DIMENSION2</DimensionName>
+		<Value>CC20</Value>
+		<Description>Cost Center 20</Description>
+		<IsActive>true</IsActive>
+		<CustomField_Boolean1 i:nil="true" />
+		<CustomField_Boolean2 i:nil="true" />
+		<CustomField_Boolean3 i:nil="true" />
+		<CustomField_Boolean4 i:nil="true" />
+		<CustomField_Boolean5 i:nil="true" />
+		<CustomField_DateTime1 i:nil="true" />
+		<CustomField_DateTime2 i:nil="true" />
+		<CustomField_DateTime3 i:nil="true" />
+		<CustomField_DateTime4 i:nil="true" />
+		<CustomField_DateTime5 i:nil="true" />
+		<CustomField_Numeric1 i:nil="true" />
+		<CustomField_Numeric2 i:nil="true" />
+		<CustomField_Numeric3 i:nil="true" />
+		<CustomField_Numeric4 i:nil="true" />
+		<CustomField_Numeric5 i:nil="true" />
+		<CustomField_Text1 i:nil="true" />
+		<CustomField_Text2 i:nil="true" />
+		<CustomField_Text3 i:nil="true" />
+		<CustomField_Text4 i:nil="true" />
+		<CustomField_Text5 i:nil="true" />	
+		<TaxIndicator1 i:nil="true" />
+		<TaxIndicator2>IND2</TaxIndicator2>
+	</DimensionValue>
+</ArrayOfDimensionValue>

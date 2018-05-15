@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="RequestMessage" nillable="true" type="RequestMessage" />
+  <xs:complexType name="RequestMessage">
+    <xs:sequence>
+      <xs:element name="CorrelationKey" type="xs:string" minOccurs="0" />
+      <xs:element name="Tag" type="xs:string" minOccurs="0" />
+      <xs:element name="MessageContent" type="MessageContent" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MessageContent">
+    <xs:all>
+      <xs:element name="ImportedOrderIdentifier" type="xs:string" minOccurs="0" />
+      <xs:element name="ImportedOrderIdentifier2" type="xs:string" minOccurs="0" />
+      <xs:element name="DocumentId" type="xs:int" />
+      <xs:element name="BalanceCodeString" type="IntegrationBalanceCodeString" minOccurs="0" />
+      <xs:element name="CompanyExternalSystemId" type="xs:string" minOccurs="0" />
+      <xs:element name="CompanyId" type="xs:string" />
+      <xs:element name="CompanyName" type="xs:string" />
+      <xs:element name="CompanyIdentifiers" type="ArrayOfIntegrationCompanyIdentifier" minOccurs="0" />
+      <xs:element name="CompanyOrganizationNumber" type="xs:string" />
+      <xs:element name="ConnectedAmount" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="ConnectedQuantity" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CurrencyCode" type="xs:string" minOccurs="0" />
+      <xs:element name="CurrencyExternalSystemId" type="xs:string" minOccurs="0" />
+      <xs:element name="CurrencyRate" type="xs:decimal" />
+      <xs:element name="IsCurrencyRateImported" type="xs:boolean" />
+      <xs:element name="CustomField_Boolean1" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CustomField_Boolean2" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CustomField_Boolean3" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CustomField_Boolean4" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CustomField_Boolean5" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CustomField_Numeric1" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CustomField_Numeric2" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CustomField_Numeric3" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CustomField_Numeric4" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CustomField_Numeric5" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CustomField_Text1" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_Text2" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_Text3" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_Text4" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_Text5" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_DateTime1" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CustomField_DateTime2" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CustomField_DateTime3" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CustomField_DateTime4" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CustomField_DateTime5" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Boolean1" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Boolean2" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Boolean3" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Boolean4" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Boolean5" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Numeric1" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Numeric2" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Numeric3" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Numeric4" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Numeric5" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Text1" type="xs:string" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Text2" type="xs:string" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Text3" type="xs:string" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Text4" type="xs:string" minOccurs="0" />
+      <xs:element name="CompanyCustomField_Text5" type="xs:string" minOccurs="0" />
+      <xs:element name="CompanyCustomField_DateTime1" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CompanyCustomField_DateTime2" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CompanyCustomField_DateTime3" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CompanyCustomField_DateTime4" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CompanyCustomField_DateTime5" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Boolean1" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Boolean2" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Boolean3" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Boolean4" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Boolean5" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Numeric1" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Numeric2" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Numeric3" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Numeric4" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Numeric5" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Text1" type="xs:string" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Text2" type="xs:string" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Text3" type="xs:string" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Text4" type="xs:string" minOccurs="0" />
+      <xs:element name="SupplierCustomField_Text5" type="xs:string" minOccurs="0" />
+      <xs:element name="SupplierCustomField_DateTime1" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="SupplierCustomField_DateTime2" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="SupplierCustomField_DateTime3" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="SupplierCustomField_DateTime4" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="SupplierCustomField_DateTime5" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="SupplierCountry" type="xs:string" minOccurs="0" />
+      <xs:element name="SupplierState" type="xs:string" minOccurs="0" />
+      <xs:element name="OriginalDocumentType" type="xs:string" minOccurs="0" />
+      <xs:element name="DueDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="FinalBookingDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="ImagePath" type="xs:string" minOccurs="0" />
+      <xs:element name="ImageUNCPath" type="xs:string" minOccurs="0" />
+      <xs:element name="DocumentURL" type="xs:string" minOccurs="0" />
+      <xs:element name="InvoiceDate" type="xs:dateTime" />
+      <xs:element name="InvoiceNumber" type="xs:string" minOccurs="0" />
+      <xs:element name="NetAmount" type="xs:decimal" />
+      <xs:element name="PaymentTerm" type="xs:string" minOccurs="0" />
+      <xs:element name="PreferredPaymentDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="PreliminaryBookingDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="PreliminaryVoucherNumber" type="xs:string" minOccurs="0" />
+      <xs:element name="FinalVoucherNumber" type="xs:string" minOccurs="0" />
+      <xs:element name="RoundingAmount" type="xs:decimal" />
+      <xs:element name="SupplierExternalSystemId" type="xs:string" minOccurs="0" />
+      <xs:element name="SupplierId" type="xs:string" minOccurs="0" />
+      <xs:element name="SupplierIdentifiers" type="ArrayOfIntegrationSupplierIdentifier" minOccurs="0" />
+      <xs:element name="SupplierName" type="xs:string" minOccurs="0" />
+      <xs:element name="InvoiceReference" type="xs:string" minOccurs="0" />
+      <xs:element name="PaymentReference" type="xs:string" minOccurs="0" />
+      <xs:element name="TaxAmount" type="xs:decimal" />
+      <xs:element name="TaxIndicator" type="xs:string" minOccurs="0" />
+      <xs:element name="TaxIndicator2" type="xs:string" minOccurs="0" />
+      <xs:element name="SupplierTaxIndicator1" type="xs:string" minOccurs="0" />
+      <xs:element name="SupplierTaxIndicator2" type="xs:string" minOccurs="0" />
+      <xs:element name="TotalAmount" type="xs:decimal" />
+      <xs:element name="TotalCodedNetAmount" type="xs:decimal" />
+      <xs:element name="TotalCodedTaxAmount" type="xs:decimal" />
+      <xs:element name="PreliminaryPeriodExternalSystemId" type="xs:string" minOccurs="0" />
+      <xs:element name="PreliminaryPeriodName" type="xs:string" minOccurs="0" />
+      <xs:element name="FinalPeriodName" type="xs:string" minOccurs="0" />
+      <xs:element name="FinalPeriodExternalSystemId" type="xs:string" minOccurs="0" />
+      <xs:element name="ERPId" type="xs:string" minOccurs="0" />
+      <xs:element name="InvoiceLines" type="ArrayOfIntegrationSupplierInvoiceLine" minOccurs="0" />
+      <xs:element name="CodingLines" type="ArrayOfIntegrationCodingLine" minOccurs="0" />
+      <xs:element name="TaxLines" type="ArrayOfIntegrationTaxLine" minOccurs="0" />
+      <xs:element name="POLines" type="ArrayOfIntegrationPurchaseOrderLineInformation" minOccurs="0" />
+      <xs:element name="POConnectionLines" type="ArrayOfIntegrationPurchaseOrderLineConnection" minOccurs="0" />
+      <xs:element name="DeviationLines" type="ArrayOfIntegrationDeviationLine" minOccurs="0" />
+      <xs:element name="ExceptionTypeConnections" type="ArrayOfIntegrationExceptionTypeConnection" minOccurs="0" />
+      <xs:element name="OrderType" type="xs:string" minOccurs="0" />
+      <xs:element name="IsPaymentBlocked" type="xs:boolean" />
+      <xs:element name="PaymentDetailsExternalSystemId" type="xs:string" minOccurs="0" />
+      <xs:element name="PaymentDetailId" type="xs:string" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Boolean1" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Boolean2" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Boolean3" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Boolean4" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Boolean5" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Numeric1" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Numeric2" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Numeric3" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Numeric4" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Numeric5" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Text1" type="xs:string" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Text2" type="xs:string" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Text3" type="xs:string" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Text4" type="xs:string" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_Text5" type="xs:string" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_DateTime1" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_DateTime2" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_DateTime3" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_DateTime4" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="PaymentDetailCustomField_DateTime5" nillable="true" type="xs:dateTime" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="IntegrationBalanceCodeString">
+    <xs:all>
+      <xs:element name="Dimensions" type="IntegrationCodingDimensions" minOccurs="0" />
+      <xs:element name="Amount" type="xs:decimal" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="IntegrationCodingDimensions">
+    <xs:all>
+      <xs:element name="Dimension1" type="xs:string" minOccurs="0" />
+      <xs:element name="Dimension2" type="xs:string" minOccurs="0" />
+      <xs:element name="Dimension3" type="xs:string" minOccurs="0" />
+      <xs:element name="Dimension4" type="xs:string" minOccurs="0" />
+      <xs:element name="Dimension5" type="xs:string" minOccurs="0" />
+      <xs:element name="Dimension6" type="xs:string" minOccurs="0" />
+      <xs:element name="Dimension7" type="xs:string" minOccurs="0" />
+      <xs:element name="Dimension8" type="xs:string" minOccurs="0" />
+      <xs:element name="Dimension9" type="xs:string" minOccurs="0" />
+      <xs:element name="Dimension10" type="xs:string" minOccurs="0" />
+      <xs:element name="Dimension11" type="xs:string" minOccurs="0" />
+      <xs:element name="Dimension12" type="xs:string" minOccurs="0" />
+      <xs:element name="FreeText1" type="xs:string" minOccurs="0" />
+      <xs:element name="FreeText2" type="xs:string" minOccurs="0" />
+      <xs:element name="FreeText3" type="xs:string" minOccurs="0" />
+      <xs:element name="FreeText4" type="xs:string" minOccurs="0" />
+      <xs:element name="FreeText5" type="xs:string" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfIntegrationCompanyIdentifier">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="IntegrationCompanyIdentifier" nillable="true" type="IntegrationCompanyIdentifier" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IntegrationCompanyIdentifier">
+    <xs:all>
+      <xs:element name="IdentifierType" type="xs:string" minOccurs="0" />
+      <xs:element name="IdentifierValue" type="xs:string" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfIntegrationSupplierIdentifier">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="IntegrationSupplierIdentifier" nillable="true" type="IntegrationSupplierIdentifier" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IntegrationSupplierIdentifier">
+    <xs:all>
+      <xs:element name="IdentifierType" type="xs:string" minOccurs="0" />
+      <xs:element name="IdentifierValue" type="xs:string" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfIntegrationSupplierInvoiceLine">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="IntegrationSupplierInvoiceLine" nillable="true" type="IntegrationSupplierInvoiceLine" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IntegrationSupplierInvoiceLine">
+    <xs:all>
+      <xs:element name="Amount" type="xs:decimal" />
+      <xs:element name="ItemDescription" type="xs:string" minOccurs="0" />
+      <xs:element name="ItemNumber" type="xs:string" minOccurs="0" />
+      <xs:element name="LineNumber" type="xs:int" />
+      <xs:element name="Quantity" type="xs:decimal" />
+      <xs:element name="QuantityUnit" type="xs:string" minOccurs="0" />
+      <xs:element name="UnitPrice" type="xs:decimal" />
+      <xs:element name="CustomField_Boolean1" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CustomField_Boolean2" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CustomField_Boolean3" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CustomField_Boolean4" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CustomField_Boolean5" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="CustomField_Numeric1" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CustomField_Numeric2" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CustomField_Numeric3" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CustomField_Numeric4" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CustomField_Numeric5" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="CustomField_Text1" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_Text2" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_Text3" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_Text4" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_Text5" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_DateTime1" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CustomField_DateTime2" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CustomField_DateTime3" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CustomField_DateTime4" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CustomField_DateTime5" nillable="true" type="xs:dateTime" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfIntegrationCodingLine">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="IntegrationCodingLine" nillable="true" type="IntegrationCodingLine" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IntegrationCodingLine">
+    <xs:all>
+      <xs:element name="Accrual" type="IntegrationAccrualInformation" minOccurs="0" />
+      <xs:element name="Dimensions" type="IntegrationCodingDimensions" minOccurs="0" />
+      <xs:element name="Amount" type="xs:decimal" />
+      <xs:element name="GrossAmount" type="xs:decimal" />
+      <xs:element name="InvoiceLineNumber" nillable="true" type="xs:int" />
+      <xs:element name="CodingLineNumber" type="xs:int" />
+      <xs:element name="TaxIndicator1" type="xs:string" minOccurs="0" />
+      <xs:element name="TaxIndicator2" type="xs:string" minOccurs="0" />
+      <xs:element name="IsEnabled" type="xs:boolean" />
+      <xs:element name="Tag" type="xs:string" minOccurs="0" />
+      <xs:element name="POConnectionLineNumbers" type="ArrayOfInt" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="IntegrationAccrualInformation">
+    <xs:all>
+      <xs:element name="AccrualTemplateId" type="xs:string" minOccurs="0" />
+      <xs:element name="Dimensions" type="IntegrationCodingDimensions" minOccurs="0" />
+      <xs:element name="NumberOfPeriods" type="xs:int" />
+      <xs:element name="StartDate" type="xs:dateTime" />
+      <xs:element name="AccrualPeriods" type="ArrayOfIntegrationAccrualPeriod" minOccurs="0" />
+      <xs:element name="AccrualErpIdentifier" type="xs:string" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfIntegrationAccrualPeriod">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="IntegrationAccrualPeriod" nillable="true" type="IntegrationAccrualPeriod" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IntegrationAccrualPeriod">
+    <xs:all>
+      <xs:element name="Period" type="xs:int" />
+      <xs:element name="Percentage" type="xs:decimal" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfInt">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="int" type="xs:int" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfIntegrationTaxLine">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="IntegrationTaxLine" nillable="true" type="IntegrationTaxLine" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IntegrationTaxLine">
+    <xs:all>
+      <xs:element name="Dimensions" type="IntegrationCodingDimensions" minOccurs="0" />
+      <xs:element name="Amount" type="xs:decimal" />
+      <xs:element name="NetAmount" nillable="true" type="xs:decimal" />
+      <xs:element name="GrossAmount" nillable="true" type="xs:decimal" />
+      <xs:element name="CodingLineNumber" nillable="true" type="xs:int" />
+      <xs:element name="DeductiblePercentage" nillable="true" type="xs:decimal" />
+      <xs:element name="Percentage" nillable="true" type="xs:decimal" />
+      <xs:element name="TaxCode" type="xs:string" minOccurs="0" />
+      <xs:element name="TaxLineNumber" type="xs:int" />
+      <xs:element name="TaxIndicator1" type="xs:string" minOccurs="0" />
+      <xs:element name="TaxIndicator2" type="xs:string" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfIntegrationPurchaseOrderLineInformation">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="IntegrationPurchaseOrderLineInformation" nillable="true" type="IntegrationPurchaseOrderLineInformation" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IntegrationPurchaseOrderLineInformation">
+    <xs:all>
+      <xs:element name="LineNumber" type="xs:int" />
+      <xs:element name="PurchaseOrderNumber" type="xs:string" minOccurs="0" />
+      <xs:element name="PurchaseOrderNumber2" type="xs:string" minOccurs="0" />
+      <xs:element name="PurchaseOrderLineNumber" type="xs:string" minOccurs="0" />
+      <xs:element name="ItemNumber" type="xs:string" minOccurs="0" />
+      <xs:element name="ItemDescription" type="xs:string" minOccurs="0" />
+      <xs:element name="ConversionFactor" type="xs:decimal" />
+      <xs:element name="Quantity" type="xs:decimal" />
+      <xs:element name="Unit" type="xs:string" minOccurs="0" />
+      <xs:element name="UnitPrice" type="xs:decimal" />
+      <xs:element name="Reference" type="xs:string" minOccurs="0" />
+      <xs:element name="OrderType" type="xs:string" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfIntegrationPurchaseOrderLineConnection">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="IntegrationPurchaseOrderLineConnection" nillable="true" type="IntegrationPurchaseOrderLineConnection" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IntegrationPurchaseOrderLineConnection">
+    <xs:all>
+      <xs:element name="ConnectedAmount" type="xs:decimal" />
+      <xs:element name="ConnectedQuantity" type="xs:decimal" />
+      <xs:element name="ConnectionLevel" type="xs:string" minOccurs="0" />
+      <xs:element name="ConversionFactor" type="xs:decimal" />
+      <xs:element name="DeliveredQuantity" nillable="true" type="xs:decimal" />
+      <xs:element name="DeliveredAmount" nillable="true" type="xs:decimal" />
+      <xs:element name="DeliveredUnitPrice" nillable="true" type="xs:decimal" />
+      <xs:element name="DeliveryDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="DeliveryNote" type="xs:string" minOccurs="0" />
+      <xs:element name="DeliveryNumber" type="xs:string" minOccurs="0" />
+      <xs:element name="ReleaseNumber" type="xs:string" minOccurs="0" />
+      <xs:element name="InvoiceLineNumber" nillable="true" type="xs:int" />
+      <xs:element name="IsManual" type="xs:boolean" />
+      <xs:element name="LineNumber" type="xs:int" />
+      <xs:element name="PurchaseOrderLineNumber" type="xs:int" />
+      <xs:element name="TransactionDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="CodingLineNumbers" type="ArrayOfInt" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Boolean1" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Boolean2" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Boolean3" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Boolean4" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Boolean5" nillable="true" type="xs:boolean" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Numeric1" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Numeric2" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Numeric3" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Numeric4" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Numeric5" nillable="true" type="xs:decimal" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Text1" type="xs:string" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Text2" type="xs:string" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Text3" type="xs:string" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Text4" type="xs:string" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_Text5" type="xs:string" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_DateTime1" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_DateTime2" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_DateTime3" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_DateTime4" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="DeliveryLineCustomField_DateTime5" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="DeliveryLineExternalSystemId" type="xs:string" minOccurs="0" />
+      <xs:element name="DeliveryLineIsFictive" type="xs:boolean" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfIntegrationDeviationLine">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="IntegrationDeviationLine" nillable="true" type="IntegrationDeviationLine" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IntegrationDeviationLine">
+    <xs:all>
+      <xs:element name="ApprovalUserFirstName" type="xs:string" minOccurs="0" />
+      <xs:element name="ApprovalUserLastName" type="xs:string" minOccurs="0" />
+      <xs:element name="ApprovalUserUsername" type="xs:string" minOccurs="0" />
+      <xs:element name="DeviationAmount" nillable="true" type="xs:decimal" />
+      <xs:element name="DeviationDays" nillable="true" type="xs:int" />
+      <xs:element name="DeviationQuantity" nillable="true" type="xs:decimal" />
+      <xs:element name="DeviationType" type="xs:string" minOccurs="0" />
+      <xs:element name="IsApproved" type="xs:boolean" />
+      <xs:element name="IsAutoCoded" type="xs:boolean" />
+      <xs:element name="IsRejected" type="xs:boolean" />
+      <xs:element name="IsWithinTolerance" nillable="true" type="xs:boolean" />
+      <xs:element name="POConnectionLineNumbers" type="ArrayOfInt" minOccurs="0" />
+      <xs:element name="CodingLineNumbers" type="ArrayOfInt" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfIntegrationExceptionTypeConnection">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="IntegrationExceptionTypeConnection" nillable="true" type="IntegrationExceptionTypeConnection" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IntegrationExceptionTypeConnection">
+    <xs:all>
+      <xs:element name="InvoiceLineNumber" type="xs:int" />
+      <xs:element name="ExceptionType" type="xs:string" minOccurs="0" />
+      <xs:element name="IsManual" type="xs:boolean" />
+    </xs:all>
+  </xs:complexType>
+</xs:schema>
