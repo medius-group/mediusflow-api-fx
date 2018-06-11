@@ -23,6 +23,8 @@
       </IntegrationCompanyIdentifier>
     </CompanyIdentifiers>
     <CompanyOrganizationNumber>123456-1234</CompanyOrganizationNumber>
+    <ConnectedAmount>100</ConnectedAmount>
+    <ConnectedQuantity>11</ConnectedQuantity>
     <CurrencyCode>USD</CurrencyCode>
     <CurrencyExternalSystemId>USD</CurrencyExternalSystemId>
     <CurrencyRate>1</CurrencyRate>

@@ -10,6 +10,7 @@
         <xs:element name="PostingType" type="xs:string" minOccurs="0" />
         <xs:element name="InvoiceType" type="xs:string" minOccurs="0" />
 		<xs:element name="PaymentDate" type="xs:date" nillable="true" minOccurs="0" />
+		<xs:element name="VoucherDate" type="xs:date" nillable="true" minOccurs="0" />
         <xs:element name="VoucherNumber" type="xs:string" minOccurs="0" />
         <xs:element name="ErrorMessage" type="xs:string" minOccurs="0" />
 		<xs:element name="CustomField_Boolean1" type="xs:boolean" nillable="true" minOccurs="0" />
