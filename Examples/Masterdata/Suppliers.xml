@@ -32,10 +32,6 @@
 				<IdentifierValue>IMO_28211</IdentifierValue>
 			</SupplierIdentifier>
 			<SupplierIdentifier>
-				<IdentifierType>FINANCIAL_SYSTEM</IdentifierType>
-				<IdentifierValue>9100</IdentifierValue>
-			</SupplierIdentifier>
-			<SupplierIdentifier>
 				<IdentifierType>VAT_REGISTRATION_NUMBER</IdentifierType>
 				<IdentifierValue>SE5490797901</IdentifierValue>
 			</SupplierIdentifier>
