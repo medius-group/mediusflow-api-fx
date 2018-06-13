@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <IntegrationResponseMessage>
 	<CompanyId>LC</CompanyId>
-	<SupplierId>TSC1XXXXXXX</SupplierId>
+	<SupplierId>TSC1</SupplierId>
 	<InvoiceNumber>331223344</InvoiceNumber>
 	<VoucherDate>2018-06-07</VoucherDate>
 	<InvoiceDate>2016-10-07</InvoiceDate>	
