@@ -3,9 +3,7 @@
 	<CompanyId>LC</CompanyId>
 	<SupplierId>TSC1XXXXXXX</SupplierId>
 	<InvoiceNumber>331223344</InvoiceNumber>
-	<InvoiceDate>2016-10-07</InvoiceDate>	
-	<PostingType>FINAL</PostingType>
+	<InvoiceDate>2016-10-07</InvoiceDate>
 	<InvoiceType>ORDER_BASED</InvoiceType>
 	<VoucherNumber>Ver123456</VoucherNumber>
-	<ErrorMessage></ErrorMessage>
 </IntegrationResponseMessage>
