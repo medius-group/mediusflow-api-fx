@@ -8,37 +8,41 @@
             <xs:all>
               <xs:element name="City" type="xs:string" minOccurs="0">
                 <xs:annotation>
-                  <xs:documentation xml:lang="en">The city of the supplier, this is a free text field</xs:documentation>
+                  <xs:documentation xml:lang="en">Supplier city. This is a free text field.</xs:documentation>
                 </xs:annotation>
               </xs:element>
               <xs:element name="State" type="xs:string" minOccurs="0">
                 <xs:annotation>
-                    <xs:documentation xml:lang="en">The state of the supplier, this is a free text field</xs:documentation>
+                    <xs:documentation xml:lang="en">Supplier state. This is a free text field.</xs:documentation>
                 </xs:annotation>
               </xs:element>
               <xs:element name="Country" type="xs:string" minOccurs="0" >
                 <xs:annotation>
-                    <xs:documentation xml:lang="en">The country of the supplier, this is a free text field</xs:documentation>
+                    <xs:documentation xml:lang="en">Supplier country. This is a free text field.</xs:documentation>
                 </xs:annotation>
               </xs:element>
               <xs:element name="StreetAddress" type="xs:string" minOccurs="0" >
                 <xs:annotation>
-                    <xs:documentation xml:lang="en">The street address of the supplier, this is a free text field</xs:documentation>
+                    <xs:documentation xml:lang="en">Street address of the supplier. This is a free text field.</xs:documentation>
                 </xs:annotation>
               </xs:element>
               <xs:element name="Zip" type="xs:string" minOccurs="0" >
                 <xs:annotation>
-                    <xs:documentation xml:lang="en">The zip code of the supplier, this is a free text field</xs:documentation>
+                    <xs:documentation xml:lang="en">Supplier ZIP code. This is a free text field.</xs:documentation>
                 </xs:annotation>
               </xs:element>
               <xs:element name="CompanyId" type="xs:string" minOccurs="1" >
                 <xs:annotation>
-                    <xs:documentation xml:lang="en">The company id for the company that the supplier belongs to. This field will be checked against the Company.CompanyId field in Mediusflow</xs:documentation>
+                    <xs:documentation xml:lang="en">Company ID of the company the supplier belongs to. This field will be checked against the Company.CompanyId field in Mediusflow</xs:documentation>
                 </xs:annotation>
               </xs:element>
+              <xs:element name="ErpSourceId" type="xs:string" minOccurs="0" />
+                <xs:annotation>
+                    <xs:documentation xml:lang="en">Can be used to specify the origin of the file, e.g. an ERP system or similar. If not set it will be defaulted to FX Cloud</xs:documentation>
+                </xs:annotation>
               <xs:element name="PaymentTermCompanyId" type="xs:string" minOccurs="0" >
                 <xs:annotation>
-                    <xs:documentation xml:lang="en">If there is a need to point out the payment terms on a different company than the CompanyId, this is usually needed when the Payment terms have been imported on a virtual company that exists above the company that the supplier belongs to.</xs:documentation>
+                    <xs:documentation xml:lang="en">Used if there is a need to point to payment terms on a different company than the one specified in CompanyId. This is usually done when payment terms have been imported on a virtual company that exists above the company that the supplier belongs to.</xs:documentation>
                 </xs:annotation>
               </xs:element>
               <xs:element name="SupplierId" type="xs:string" minOccurs="1" />

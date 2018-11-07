@@ -29,6 +29,7 @@
               <xs:element name="ControllingDimensionValue" type="xs:string" minOccurs="1" />
               <xs:element name="ControllingDimensionNumber" type="xs:string" minOccurs="1" />
               <xs:element name="CompanyId" type="xs:string" minOccurs="1" />
+              <xs:element name="ErpSourceId" type="xs:string" minOccurs="0" />
               <xs:element name="IsActive" type="xs:boolean" minOccurs="0" />
               <xs:element name="EndValue" type="xs:string" minOccurs="1" />
               <xs:element name="Format" type="xs:string" minOccurs="0" />

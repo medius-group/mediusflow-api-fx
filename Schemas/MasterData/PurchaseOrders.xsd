@@ -7,6 +7,7 @@
           <xs:complexType>
             <xs:all>
               <xs:element name="CompanyId" type="xs:string" minOccurs="1" />
+              <xs:element name="ErpSourceId" type="xs:string" minOccurs="0" />
               <xs:element name="Supplier" type="xs:string" minOccurs="1" />
               <xs:element name="SupplierCompanyId" type="xs:string" minOccurs="0" />
               <xs:element name="OrderIdentifier" type="xs:string" minOccurs="1" />

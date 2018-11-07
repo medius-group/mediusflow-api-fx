@@ -27,6 +27,7 @@
               <xs:element name="CustomField_Text4" type="xs:string" nillable="true" minOccurs="0" />
               <xs:element name="CustomField_Text5" type="xs:string" nillable="true" minOccurs="0" />
               <xs:element name="CompanyId" type="xs:string" minOccurs="0" />
+              <xs:element name="ErpSourceId" type="xs:string" minOccurs="0" />
               <xs:element name="IsActive" type="xs:boolean" minOccurs="0" />
               <xs:element name="Name" type="xs:string" minOccurs="0" />
               <xs:element name="AccrualCodeString" minOccurs="0">

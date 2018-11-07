@@ -27,6 +27,7 @@
               <xs:element name="CustomField_Text4" type="xs:string" nillable="true" minOccurs="0" />
               <xs:element name="CustomField_Text5" type="xs:string" nillable="true" minOccurs="0" />
 			        <xs:element name="CompanyId" type="xs:string" minOccurs="1" />
+              <xs:element name="ErpSourceId" type="xs:string" minOccurs="0" />
               <xs:element name="DimensionName" type="xs:string" minOccurs="1" />
               <xs:element name="DimensionValue" type="xs:string" minOccurs="1" />
               <xs:element name="DimensionValueCompanyId" type="xs:string" minOccurs="0" />
