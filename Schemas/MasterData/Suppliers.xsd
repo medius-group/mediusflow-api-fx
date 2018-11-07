@@ -36,10 +36,11 @@
                     <xs:documentation xml:lang="en">Company ID of the company the supplier belongs to. This field will be checked against the Company.CompanyId field in Mediusflow</xs:documentation>
                 </xs:annotation>
               </xs:element>
-              <xs:element name="ErpSourceId" type="xs:string" minOccurs="0" />
+              <xs:element name="ErpSourceId" type="xs:string" minOccurs="0" >
                 <xs:annotation>
                     <xs:documentation xml:lang="en">Can be used to specify the origin of the file, e.g. an ERP system or similar. If not set it will be defaulted to FX Cloud</xs:documentation>
                 </xs:annotation>
+              </xs:element>
               <xs:element name="PaymentTermCompanyId" type="xs:string" minOccurs="0" >
                 <xs:annotation>
                     <xs:documentation xml:lang="en">Used if there is a need to point to payment terms on a different company than the one specified in CompanyId. This is usually done when payment terms have been imported on a virtual company that exists above the company that the supplier belongs to.</xs:documentation>
