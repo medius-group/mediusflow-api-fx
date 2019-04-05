@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<IntegrationResponseMessage>
+	<CompanyId>LC</CompanyId>
+	<SupplierId>TSC1</SupplierId>
+	<InvoiceNumber>331223344</InvoiceNumber>
+	<InvoiceDate>2016-10-07</InvoiceDate>	
+	<InvoiceType>ORDER_BASED</InvoiceType>
+	<VoucherNumber></VoucherNumber>
+	<ErrorMessage></ErrorMessage>
+</IntegrationResponseMessage>

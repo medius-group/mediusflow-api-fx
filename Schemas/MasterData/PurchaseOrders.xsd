@@ -37,6 +37,7 @@
               <xs:element name="CustomField_Text4" type="xs:string" nillable="true" minOccurs="0" />
               <xs:element name="CustomField_Text5" type="xs:string" nillable="true" minOccurs="0" />
               <xs:element name="Reference" type="xs:string" minOccurs="0" />
+              <xs:element name="Reference2" type="xs:string" minOccurs="0" />
               <xs:element name="PurchaseOrderLines" minOccurs="0">
                 <xs:complexType>
                   <xs:choice minOccurs="1" maxOccurs="unbounded">
@@ -154,6 +155,7 @@
                           <xs:element name="LineNumber" type="xs:string" minOccurs="1" />
                           <xs:element name="Quantity" type="xs:decimal" minOccurs="1" />
                           <xs:element name="Reference" type="xs:string" minOccurs="0" />
+                          <xs:element name="Reference2" type="xs:string" minOccurs="0" />
                           <xs:element name="TaxIndicator1" type="xs:string" minOccurs="0" />
                           <xs:element name="TaxIndicator2" type="xs:string" minOccurs="0" />
                           <xs:element name="TaxIndicatorsCompanyId" type="xs:string" minOccurs="0" />
