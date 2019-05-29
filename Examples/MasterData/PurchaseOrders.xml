@@ -110,7 +110,7 @@
 						<Quantity>10.00000000000000</Quantity>
 						<ReleaseNumber i:nil="true" />
 						<TotalInvoicedQuantity i:nil="true" />
-						<Unit>-</Unit>
+						<Unit>MG</Unit>
 						<UnitPrice>10.00000000000000</UnitPrice>
 					</DeliveryLine>
 				</DeliveryLines>
@@ -238,7 +238,7 @@
 						<Quantity>10.00000000000000</Quantity>
 						<ReleaseNumber i:nil="true" />
 						<TotalInvoicedQuantity i:nil="true" />
-						<Unit>-</Unit>
+						<Unit>MG</Unit>
 						<UnitPrice>10.00000000000000</UnitPrice>
 					</DeliveryLine>
 				</DeliveryLines>
@@ -252,7 +252,7 @@
 				<Reference />
 				<TaxIndicator1>AP-EU</TaxIndicator1>
 				<TaxIndicator2 />
-				<Unit>-</Unit>
+				<Unit>MG</Unit>
 				<UnitPrice>10.00000000000000</UnitPrice>
 			</PurchaseOrderLine>
 		</PurchaseOrderLines>
