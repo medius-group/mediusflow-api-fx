@@ -27,12 +27,38 @@
               <xs:element name="CustomField_Text4" type="xs:string" nillable="true" minOccurs="0" />
               <xs:element name="CustomField_Text5" type="xs:string" nillable="true" minOccurs="0" />
               <xs:element name="CompanyId" type="xs:string" minOccurs="1" />
-              <xs:element name="ErpSourceId" type="xs:string" minOccurs="0" />
               <xs:element name="Description" type="xs:string" minOccurs="1" />
+              <xs:element name="ErpSourceId" type="xs:string" minOccurs="0"/>
               <xs:element name="IsActive" type="xs:boolean" minOccurs="0" />
-              <xs:element name="NumberOfDays" type="xs:unsignedInt" minOccurs="1" />
-              <xs:element name="NumberOfFreeMonths" type="xs:unsignedInt" minOccurs="0" />
+              <xs:element name="NumberOfDays" type="xs:int" minOccurs="0" nillable="true" />
+              <xs:element name="NumberOfFreeMonths" type="xs:int" minOccurs="0" nillable="true" />
               <xs:element name="PaymentTermId" type="xs:string" minOccurs="1" />
+              <xs:element name="StartDate" minOccurs="0">
+                <xs:complexType>
+                  <xs:all>
+                    <xs:element name="Type" type="xs:string" minOccurs="1" />
+                    <xs:element name="FixedDay" type="xs:int" nillable="true" minOccurs="0" />
+                    <xs:element name="NumberOfMonths" type="xs:int" nillable="true" minOccurs="0" />
+                  </xs:all>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Lines" minOccurs="0" >
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="PaymentTermLine">
+                      <xs:complexType>
+                        <xs:all>
+                          <xs:element name="CashDiscountPercentage" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="EndOfMonth" type="xs:boolean"  minOccurs="0" />
+                          <xs:element name="FixedPaymentDay" type="xs:int" nillable="true" minOccurs="0" />
+                          <xs:element name="NumberOfDays" type="xs:int" minOccurs="1" />
+                          <xs:element name="NumberOfMonths" type="xs:int" minOccurs="1" />
+                        </xs:all>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
             </xs:all>
           </xs:complexType>
         </xs:element>

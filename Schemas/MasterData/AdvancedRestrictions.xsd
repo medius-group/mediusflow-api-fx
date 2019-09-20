@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ArrayOfAdvancedRestriction" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="ArrayOfAdvancedRestriction" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AdvancedRestriction">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="CompanyId" type="xs:string" minOccurs="1" >
+                <xs:annotation>
+                  <xs:documentation xml:lang="en">Company ID of the company restrictions belongs to. This field will be checked against the Company.CompanyId field in Mediusflow</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="ChangeTrackingId" type="xs:string" minOccurs="1" >
+                <xs:annotation>
+                  <xs:documentation xml:lang="en">Advance restrictions have no real logical key as most of the other master data entities have. 
+                  Take for example suppliers, where a supplier cannot be imported twice by ensuring that CompanyId and SupplierId is unique and if a 
+                  suppliers attribute as e.g. Name is updated, it’s updated by the logical key. 
+                  To be able to control the advance restriction from the outside it’s needed to provide 
+                  an additional immutable key to ensure that updates can be performed from the external system, this key is ChangeTrackingId</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="ErpSourceId" type="xs:string" minOccurs="0" >
+                <xs:annotation>
+                  <xs:documentation xml:lang="en">Can be used to specify the origin of the file, e.g. an ERP system or similar. If not set it will be defaulted to FX Cloud</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="IsActive" type="xs:boolean" minOccurs="0" >
+                <xs:annotation>
+                  <xs:documentation xml:lang="en">Is restriction set active/inactive</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="RestrictionRules" minOccurs="0">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="RestrictionRule">
+                      <xs:complexType>
+                        <xs:all>
+                          <xs:element name="ControllingDimension" type="xs:string" minOccurs="0" />
+                          <xs:element name="ControllingDimensionValues" minOccurs="0">
+                            <xs:complexType>
+                              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                <xs:element name="ControllingDimension">
+                                  <xs:complexType>
+                                    <xs:all>
+                                      <xs:element name="From" type="xs:string" minOccurs="0" >
+                                        <xs:annotation>
+                                          <xs:documentation xml:lang="en">used as v1 in operators: is between v1 and v2 (including)/is between v1 and v2 and as value in operators: is greater than(including)/is greater than</xs:documentation>
+                                        </xs:annotation>
+                                      </xs:element>
+                                      <xs:element name="To" type="xs:string" minOccurs="0" >
+                                        <xs:annotation>
+                                          <xs:documentation xml:lang="en">used as v2 in operators: is between v1 and v2 (including)/is between v1 and v2/ and as value in operators: less than (including)is less than</xs:documentation>
+                                        </xs:annotation>
+                                      </xs:element>
+                                      <xs:element name="StartsWith" type="xs:string" minOccurs="0" >
+                                        <xs:annotation>
+                                          <xs:documentation xml:lang="en">'begins with' operator - Pass value in StartsWith property</xs:documentation>
+                                        </xs:annotation>
+                                      </xs:element>
+                                      <xs:element name="EndsWith" type="xs:string" minOccurs="0" >
+                                        <xs:annotation>
+                                          <xs:documentation xml:lang="en">'ends with' - Pass value in EndsWith property</xs:documentation>
+                                        </xs:annotation>
+                                      </xs:element>
+                                      <xs:element name="Is" type="xs:string" minOccurs="0" >
+                                        <xs:annotation>
+                                          <xs:documentation xml:lang="en">'is' operator - Pass value in Is property</xs:documentation>
+                                        </xs:annotation>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" maxOccurs="1" name="In" type="ArrayOfString" >
+                                        <xs:annotation>
+                                          <xs:documentation xml:lang="en">from list v1, v2, ..., vn</xs:documentation>
+                                        </xs:annotation>
+                                      </xs:element>
+                                      <xs:element name="IsAnyValue" type="xs:boolean" minOccurs="0" >
+                                        <xs:annotation>
+                                          <xs:documentation xml:lang="en">Set IsAnyValue property to true</xs:documentation>
+                                        </xs:annotation>
+                                      </xs:element>
+                                      <xs:element name="IncludeEdges" type="xs:boolean" minOccurs="0" >
+                                        <xs:annotation>
+                                          <xs:documentation xml:lang="en">set to false if you do not want to include edge value in operators:is between v1 and v2/is greater than/is less than </xs:documentation>
+                                        </xs:annotation>
+                                      </xs:element>
+                                    </xs:all>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:choice>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="RestrictedOrderedDimensionGroups" minOccurs="0">
+                          <xs:complexType>
+                            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                              <xs:element name="RestrictedDimensionGroup">
+                                <xs:complexType>
+                                  <xs:all>
+                                    <xs:element name="Dimension" type="xs:string" minOccurs="0" />
+                                    <xs:element name="ChildRules" minOccurs="0">
+                                      <xs:complexType>
+                                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                          <xs:element name="Rule">
+                                            <xs:complexType>
+                                              <xs:all>
+                                                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                                                <xs:element name="DimensionValues" minOccurs="0" >
+                                                  <xs:complexType>
+                                                    <xs:all>
+                                                      <xs:element name="From" type="xs:string" minOccurs="0" />
+                                                      <xs:element name="To" type="xs:string" minOccurs="0" />
+                                                      <xs:element name="StartsWith" type="xs:string" minOccurs="0" />
+                                                      <xs:element name="EndsWith" type="xs:string" minOccurs="0" />
+                                                      <xs:element name="Is" type="xs:string" minOccurs="0" />                                                      
+                                                      <xs:element minOccurs="0" maxOccurs="1" name="In" type="ArrayOfString" />
+                                                      <xs:element name="IsAnyValue" type="xs:boolean" minOccurs="0" />
+                                                      <xs:element name="IncludeEdges" type="xs:boolean" minOccurs="0" />
+                                                  </xs:all>
+                                                </xs:complexType>
+                                              </xs:element>
+                                              </xs:all>
+                                            </xs:complexType>
+                                          </xs:element>
+                                        </xs:choice>
+                                      </xs:complexType>
+                                    </xs:element>
+                                  </xs:all>
+                                </xs:complexType>
+                              </xs:element>
+                            </xs:choice>
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:all>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="ArrayOfString">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
