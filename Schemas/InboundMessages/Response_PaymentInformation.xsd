@@ -7,9 +7,13 @@
         <xs:element name="SupplierId" type="xs:string" minOccurs="1" />
         <xs:element name="InvoiceNumber" type="xs:string" minOccurs="1" />
         <xs:element name="InvoiceDate" type="xs:date" minOccurs="1" />
-        <xs:element name="InvoiceType" type="xs:string" minOccurs="1" />
-        <xs:element name="PostingType" type="xs:string" minOccurs="1" />
         <xs:element name="PaymentDate" type="xs:date" nillable="true" minOccurs="0" />
+        <xs:element name="Amount" type="xs:decimal" nillable="true" minOccurs="0" />
+        <xs:element name="Status" type="xs:string" minOccurs="0" />
+        <xs:element name="Method" type="xs:string" minOccurs="0" nillable="true"/>
+        <xs:element name="Identifier" type="xs:string" minOccurs="0" />
+        <xs:element name="ExternalIdentifier" type="xs:string" minOccurs="1" />
+        <xs:element name="AdditionalInformation" type="xs:string" minOccurs="0" />
         <xs:element name="CustomField_Boolean1" type="xs:boolean" nillable="true" minOccurs="0" />
         <xs:element name="CustomField_Boolean2" type="xs:boolean" nillable="true" minOccurs="0" />
         <xs:element name="CustomField_Boolean3" type="xs:boolean" nillable="true" minOccurs="0" />

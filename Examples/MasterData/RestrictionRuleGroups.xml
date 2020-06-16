@@ -1,0 +1,43 @@
+<ArrayOfRestrictionRuleGroup>
+  <RestrictionRuleGroup>
+    <ErpSourceId>Ax</ErpSourceId>
+    <CompanyId>COMPANY_1</CompanyId>
+    <IsActive>true</IsActive>
+    <ChangeTrackingId>somekey</ChangeTrackingId>
+    <RestrictionRules>
+      
+      <RestrictionRule>
+        <!--Controlling dimension is usually Main Account, but it could be some other dimension as well (we support it) -->
+        <ControllingDimension>DIMENSION1</ControllingDimension>
+        <ControllingDimensionValues>
+          <!-- We can have multiple ControllingDimension sets of values, but each one will be mapped to separate restriction rule in MFXI
+               Same with list of values: each value from list will be mapped to separate restriction rule in MFXI
+          -->
+          <ControllingDimension>
+            <Is>1112</Is>
+          </ControllingDimension>
+        </ControllingDimensionValues>
+        <RestrictedOrderedDimensionGroups>
+          <!-- Multiple dimension groups are allowed
+               Important: Having 2 different groups with same Dimension is forbidden and will result in import error
+          -->
+          <RestrictedDimensionGroup>
+            <Dimension>DIMENSION3</Dimension>
+            <ChildRules>
+              <!-- Multiple child rules are allowed -->
+              <Rule>
+                <Type>required</Type>
+                <DimensionValues>
+                  <In>
+                    <string>Item-0034</string>
+                    <string>Item-0035</string>
+                  </In>
+                </DimensionValues>
+              </Rule>
+            </ChildRules>
+          </RestrictedDimensionGroup>
+        </RestrictedOrderedDimensionGroups>
+      </RestrictionRule>
+    </RestrictionRules>
+  </RestrictionRuleGroup>
+</ArrayOfRestrictionRuleGroup>

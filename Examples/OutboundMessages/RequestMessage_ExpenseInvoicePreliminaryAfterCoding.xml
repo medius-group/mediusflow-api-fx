@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RequestMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CorrelationKey>FX;EXPENSE;CC;MyVirtualSupplierName_Id;Blablbabla123;2020-02-20</CorrelationKey>
+  <Tag>PRELIMINARY_AFTER_CODING</Tag>
+  <MessageContent>
+    <DocumentId>1944</DocumentId>
+    <BalanceCodeString>
+      <Dimensions />
+      <Amount>123</Amount>
+    </BalanceCodeString>
+    <CompanyExternalSystemId>company[CC]</CompanyExternalSystemId>
+    <CompanyId>CC</CompanyId>
+    <CompanyName>CodingCompany</CompanyName>
+    <CompanyIdentifiers>
+      <IntegrationCompanyIdentifier>
+        <IdentifierType>ExternalSystemIdentifier</IdentifierType>
+        <IdentifierValue>company[CC]</IdentifierValue>
+      </IntegrationCompanyIdentifier>
+      <IntegrationCompanyIdentifier>
+        <IdentifierType>CompanyNameIdentifier</IdentifierType>
+        <IdentifierValue>CodingCompany</IdentifierValue>
+      </IntegrationCompanyIdentifier>
+      <IntegrationCompanyIdentifier>
+        <IdentifierType>CompanyIdIdentifier</IdentifierType>
+        <IdentifierValue>CC</IdentifierValue>
+      </IntegrationCompanyIdentifier>
+    </CompanyIdentifiers>
+    <CompanyOrganizationNumber>123321</CompanyOrganizationNumber>
+    <CurrencyCode>GBP</CurrencyCode>
+    <CurrencyExternalSystemId>GBP</CurrencyExternalSystemId>
+    <CurrencyRate>1</CurrencyRate>
+    <IsCurrencyRateImported>false</IsCurrencyRateImported>
+    <OriginalDocumentType>EXPENSE</OriginalDocumentType>
+    <DueDate>2020-02-21T00:00:00Z</DueDate>
+    <FinalBookingDate>2020-02-20T00:00:00Z</FinalBookingDate>
+    <ImagePath>https://cloud.mediusflow.com/mediusflowfxQA/Backend/Rest/MediaService/image/81002384-c954-49bf-83b8-30b671ffecda/pdf/pages/1?tag=DocumentImage</ImagePath>
+    <DocumentURL>https://cloud.mediusflow.com/mediusflowfxQA/#Tasks/ShowDocument/1944</DocumentURL>
+    <InvoiceDate>2020-02-20T00:00:00Z</InvoiceDate>
+    <InvoiceNumber>Blablbabla123</InvoiceNumber>
+    <NetAmount>123</NetAmount>
+    <PaymentTerm>1</PaymentTerm>
+    <PreferredPaymentDate>2020-02-21T00:00:00Z</PreferredPaymentDate>
+    <PreliminaryBookingDate>2020-02-20T00:00:00Z</PreliminaryBookingDate>
+    <PreliminaryVoucherNumber />
+    <FinalVoucherNumber />
+    <RoundingAmount>0</RoundingAmount>
+    <SupplierExternalSystemId>company[V0];MyVirtualSupplierName_Id</SupplierExternalSystemId>
+    <SupplierId>MyVirtualSupplierName_Id</SupplierId>
+    <SupplierIdentifiers>
+      <IntegrationSupplierIdentifier>
+        <IdentifierType>EXTERNAL_SYSTEM_ID</IdentifierType>
+        <IdentifierValue>company[V0];MyVirtualSupplierName_Id</IdentifierValue>
+      </IntegrationSupplierIdentifier>
+      <IntegrationSupplierIdentifier>
+        <IdentifierType>FINANCIAL_SYSTEM</IdentifierType>
+        <IdentifierValue>MyVirtualSupplierName_Id</IdentifierValue>
+      </IntegrationSupplierIdentifier>
+    </SupplierIdentifiers>
+    <SupplierName>Virtual Supplier</SupplierName>
+    <TaxAmount>0</TaxAmount>
+    <TotalAmount>123</TotalAmount>
+    <TotalCodedNetAmount>123</TotalCodedNetAmount>
+    <TotalCodedTaxAmount>0</TotalCodedTaxAmount>
+    <ERPId>FX</ERPId>
+    <InvoiceLines>
+      <IntegrationSupplierInvoiceLine>
+        <Amount>123</Amount>
+        <LineNumber>1</LineNumber>
+        <Quantity>1</Quantity>
+        <QuantityUnit>-</QuantityUnit>
+        <UnitPrice>123</UnitPrice>
+      </IntegrationSupplierInvoiceLine>
+    </InvoiceLines>
+    <CodingLines>
+      <IntegrationCodingLine>
+        <Dimensions>
+          <Dimension2>test</Dimension2>
+        </Dimensions>
+        <Amount>123</Amount>
+        <GrossAmount>123</GrossAmount>
+        <InvoiceLineNumber>1</InvoiceLineNumber>
+        <CodingLineNumber>1</CodingLineNumber>
+        <IsEnabled>true</IsEnabled>
+        <Tag />
+        <POConnectionLineNumbers />
+      </IntegrationCodingLine>
+    </CodingLines>
+    <TaxLines />
+    <POLines />
+    <POConnectionLines />
+    <DeviationLines />
+    <ExceptionTypeConnections />
+    <IsPaymentBlocked>false</IsPaymentBlocked>
+  </MessageContent>
+</RequestMessage>
