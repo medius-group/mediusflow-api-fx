@@ -14,10 +14,10 @@
               <xs:element name="ChangeTrackingId" type="xs:string" minOccurs="1" >
                 <xs:annotation>
                   <xs:documentation xml:lang="en">Restriction Rule Group have no real logical key as most of the other master data entities have.
-                  Take for example suppliers, where a supplier cannot be imported twice by ensuring that CompanyId and SupplierId is unique and if a
-                  suppliers attribute as e.g. Name is updated, it’s updated by the logical key.
-                  To be able to control the restriction rule group from the outside it’s needed to provide
-                  an additional immutable key to ensure that updates can be performed from the external system, this key is ChangeTrackingId</xs:documentation>
+       Take for example suppliers, where a supplier cannot be imported twice by ensuring that CompanyId and SupplierId is unique and if a
+       suppliers attribute as e.g. Name is updated, it’s updated by the logical key.
+       To be able to control the restriction rule group from the outside it’s needed to provide
+       an additional immutable key to ensure that updates can be performed from the external system, this key is ChangeTrackingId</xs:documentation>
                 </xs:annotation>
               </xs:element>
               <xs:element name="ErpSourceId" type="xs:string" minOccurs="0" >
