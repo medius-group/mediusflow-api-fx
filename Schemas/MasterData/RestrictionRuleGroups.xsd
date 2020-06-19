@@ -8,26 +8,22 @@
             <xs:all>
               <xs:element name="CompanyId" type="xs:string" minOccurs="1" >
                 <xs:annotation>
-                  <xs:documentation xml:lang="en">Company ID of the company restrictions belongs to. This field will be checked against the Company.CompanyId field in Mediusflow</xs:documentation>
+                  <xs:documentation xml:lang="en">ID of the company the restrictions belong to. This field will be checked against the Company.CompanyId field in MediusFlow.</xs:documentation>
                 </xs:annotation>
               </xs:element>
               <xs:element name="ChangeTrackingId" type="xs:string" minOccurs="1" >
                 <xs:annotation>
-                  <xs:documentation xml:lang="en">Restriction Rule Group have no real logical key as most of the other master data entities have.
-       Take for example suppliers, where a supplier cannot be imported twice by ensuring that CompanyId and SupplierId is unique and if a
-       suppliers attribute as e.g. Name is updated, it’s updated by the logical key.
-       To be able to control the restriction rule group from the outside it’s needed to provide
-       an additional immutable key to ensure that updates can be performed from the external system, this key is ChangeTrackingId</xs:documentation>
+                  <xs:documentation xml:lang="en">Restriction rule groups have no real logical key unlike most of the other master data entities. To be able to control the restriction rule group from the outside you must provide an additional, immutable key. This will ensure that updates can be performed from the external system. This key is ChangeTrackingId.</xs:documentation>
                 </xs:annotation>
               </xs:element>
               <xs:element name="ErpSourceId" type="xs:string" minOccurs="0" >
                 <xs:annotation>
-                  <xs:documentation xml:lang="en">Can be used to specify the origin of the file, e.g. an ERP system or similar. If not set it will be defaulted to FX Cloud</xs:documentation>
+                  <xs:documentation xml:lang="en">Can be used to specify the origin of the file, e.g. an ERP system or similar. If not set it will default to FX Cloud.</xs:documentation>
                 </xs:annotation>
               </xs:element>
               <xs:element name="IsActive" type="xs:boolean" minOccurs="0" >
                 <xs:annotation>
-                  <xs:documentation xml:lang="en">Is restriction set active/inactive</xs:documentation>
+                  <xs:documentation xml:lang="en">Indicates whether the restriction is active or inactive.</xs:documentation>
                 </xs:annotation>
               </xs:element>
               <xs:element name="RestrictionRules" minOccurs="0">
@@ -45,12 +41,12 @@
                                     <xs:all>
                                       <xs:element name="From" type="xs:string" minOccurs="0" >
                                         <xs:annotation>
-                                          <xs:documentation xml:lang="en">used as v1 in operators: is between v1 and v2 (including)/is between v1 and v2 and as value in operators: is greater than(including)/is greater than</xs:documentation>
+                                          <xs:documentation xml:lang="en">Used as the v1 argument in operators, e.g. *is between v1 and v2 (including)/is between v1 and v2*; and as value in operators: *is greater than(including)/is greater than*.</xs:documentation>
                                         </xs:annotation>
                                       </xs:element>
                                       <xs:element name="To" type="xs:string" minOccurs="0" >
                                         <xs:annotation>
-                                          <xs:documentation xml:lang="en">used as v2 in operators: is between v1 and v2 (including)/is between v1 and v2/ and as value in operators: less than (including)is less than</xs:documentation>
+                                          <xs:documentation xml:lang="en">Used as the v2 argument in operators: *is between v1 and v2 (including)/is between v1 and v2*; and as value in operators: *less than (including)is less than*.</xs:documentation>
                                         </xs:annotation>
                                       </xs:element>
                                       <xs:element name="StartsWith" type="xs:string" minOccurs="0" >
@@ -85,7 +81,7 @@
                                       </xs:element>
                                       <xs:element name="IncludeEdges" type="xs:boolean" minOccurs="0" nillable="true">
                                         <xs:annotation>
-                                          <xs:documentation xml:lang="en">set to false if you do not want to include edge value in operators:is between v1 and v2/is greater than/is less than </xs:documentation>
+                                          <xs:documentation xml:lang="en">Set to false if you do not want to include edge values in operators:*is between v1 and v2/is greater than/is less than*.</xs:documentation>
                                         </xs:annotation>
                                       </xs:element>
                                     </xs:all>
