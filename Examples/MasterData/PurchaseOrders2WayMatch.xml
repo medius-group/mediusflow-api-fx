@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPurchaseOrder xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<PurchaseOrder>
+		<CompanyId>GBSI</CompanyId>
+		<Supplier>MyExampleSupplierName_Id</Supplier>
+		<OrderIdentifier>PurchaseOrderWith2WayMatchLine</OrderIdentifier>
+		<CurrencyCode>GBP</CurrencyCode>
+		<Amount>10.00000000000000</Amount>
+		<RegisterDate>2009-03-19</RegisterDate>
+		<DueDate>2009-03-19</DueDate>
+		<IsActive>true</IsActive>
+		<CustomField_Boolean1 i:nil="true" />
+		<CustomField_Boolean2 i:nil="true" />
+		<CustomField_Boolean3 i:nil="true" />
+		<CustomField_Boolean4 i:nil="true" />
+		<CustomField_Boolean5 i:nil="true" />
+		<CustomField_DateTime1 i:nil="true" />
+		<CustomField_DateTime2 i:nil="true" />
+		<CustomField_DateTime3 i:nil="true" />
+		<CustomField_DateTime4 i:nil="true" />
+		<CustomField_DateTime5 i:nil="true" />
+		<CustomField_Numeric1 i:nil="true" />
+		<CustomField_Numeric2 i:nil="true" />
+		<CustomField_Numeric3 i:nil="true" />
+		<CustomField_Numeric4 i:nil="true" />
+		<CustomField_Numeric5 i:nil="true" />
+		<CustomField_Text1 i:nil="true" />
+		<CustomField_Text2 i:nil="true" />
+		<CustomField_Text3 i:nil="true" />
+		<CustomField_Text4 i:nil="true" />
+		<CustomField_Text5 i:nil="true" />
+		<Reference />		
+		<PurchaseOrderLines>
+			<PurchaseOrderLine>
+				<Amount>10.00000000000000</Amount>
+				<CustomField_Boolean1 i:nil="true" />
+				<CustomField_Boolean2 i:nil="true" />
+				<CustomField_Boolean3 i:nil="true" />
+				<CustomField_Boolean4 i:nil="true" />
+				<CustomField_Boolean5 i:nil="true" />
+				<CustomField_DateTime1 i:nil="true" />
+				<CustomField_DateTime2 i:nil="true" />
+				<CustomField_DateTime3 i:nil="true" />
+				<CustomField_DateTime4 i:nil="true" />
+				<CustomField_DateTime5 i:nil="true" />
+				<CustomField_Numeric1 i:nil="true" />
+				<CustomField_Numeric2 i:nil="true" />
+				<CustomField_Numeric3 i:nil="true" />
+				<CustomField_Numeric4 i:nil="true" />
+				<CustomField_Numeric5 i:nil="true" />
+				<CustomField_Text1 i:nil="true" />
+				<CustomField_Text2 i:nil="true" />
+				<CustomField_Text3 i:nil="true" />
+				<CustomField_Text4 i:nil="true" />
+				<CustomField_Text5 i:nil="true" />				
+				<CodingLines>
+					<PreCodingLine>
+						<Amount>10.00000000000000</Amount>
+						<Dimensions>
+							<Dimension1>PO Coding</Dimension1>
+							<Dimension10 i:nil="true" />
+							<Dimension11 i:nil="true" />
+							<Dimension12 i:nil="true" />
+							<Dimension2 i:nil="true" />
+							<Dimension3 i:nil="true" />
+							<Dimension4 i:nil="true" />
+							<Dimension5 i:nil="true" />
+							<Dimension6 i:nil="true" />
+							<Dimension7 i:nil="true" />
+							<Dimension8 i:nil="true" />
+							<Dimension9 i:nil="true" />
+							<FreeText1 i:nil="true" />
+							<FreeText2 i:nil="true" />
+							<FreeText3 i:nil="true" />
+							<FreeText4 i:nil="true" />
+							<FreeText5 i:nil="true" />
+						</Dimensions>
+						<Type>Cost</Type>
+					</PreCodingLine>
+				</CodingLines>
+				<ConversionFactor>1.00000</ConversionFactor>
+				<IsActive>true</IsActive>
+				<IsServiceBased>false</IsServiceBased>
+				<IsTwoWayMatch>true</IsTwoWayMatch>
+				<ItemDescription>Fixskruv</ItemDescription>
+				<ItemId />
+				<ItemNumber>1000</ItemNumber>
+				<LineNumber>99000</LineNumber>
+				<Quantity>1.00000000000000</Quantity>
+				<Reference />
+				<TaxIndicator1>AP-EU</TaxIndicator1>
+				<TaxIndicator2 />
+				<Unit>-</Unit>
+				<UnitPrice>10.00000000000000</UnitPrice>
+			</PurchaseOrderLine>
+		</PurchaseOrderLines>
+	</PurchaseOrder>
+</ArrayOfPurchaseOrder>

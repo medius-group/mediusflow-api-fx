@@ -149,6 +149,7 @@
                           </xs:element>
                           <xs:element name="IsActive" type="xs:boolean" minOccurs="0" />
                           <xs:element name="IsServiceBased" type="xs:boolean" minOccurs="0" />
+                          <xs:element name="IsTwoWayMatch" type="xs:boolean" minOccurs="0" />
                           <xs:element name="ItemDescription" type="xs:string" minOccurs="1" />
                           <xs:element name="ItemId" type="xs:string" minOccurs="0" />
                           <xs:element name="ItemNumber" type="xs:string" minOccurs="1" />

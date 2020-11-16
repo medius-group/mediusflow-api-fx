@@ -33,6 +33,21 @@
               <xs:element name="DimensionValueCompanyId" type="xs:string" minOccurs="0" />
               <xs:element name="Responsible" type="xs:string" minOccurs="0" />
               <xs:element name="ResponsibleRole" type="xs:string" minOccurs="0" nillable="true" />
+			        <xs:element name="Responsibles" minOccurs="0">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="IntegrationDimensionValueConfigurationResponsible">
+                      <xs:complexType>
+                        <xs:all>
+          						  <xs:element name="ResponsibleUser" type="xs:string" nillable="true" minOccurs="0" />
+          						  <xs:element name="ResponsibleRole" type="xs:string" nillable="true" minOccurs="0" />
+          						  <xs:element name="OrderId" type="xs:int" nillable="false" minOccurs="0" />
+                        </xs:all>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
             </xs:all>
           </xs:complexType>
         </xs:element>
