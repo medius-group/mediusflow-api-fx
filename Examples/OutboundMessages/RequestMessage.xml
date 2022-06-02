@@ -5,7 +5,7 @@
   <MessageContent>
     <DocumentId>33</DocumentId>
     <BalanceCodeString>
-      <Amount>10</Amount>
+      <Amount>10.0</Amount>
     </BalanceCodeString>
     <CompanyExternalSystemId>company[GBSI]</CompanyExternalSystemId>
     <CompanyId>GBSI</CompanyId>
@@ -23,7 +23,7 @@
     <CompanyOrganizationNumber>TRN0292939</CompanyOrganizationNumber>
     <CurrencyCode>GBP</CurrencyCode>
     <CurrencyExternalSystemId>GBP</CurrencyExternalSystemId>
-    <CurrencyRate>1</CurrencyRate>
+    <CurrencyRate>1.0</CurrencyRate>
     <IsCurrencyRateImported>false</IsCurrencyRateImported>
     <SupplierCountry>Sverige</SupplierCountry>
     <OriginalDocumentType>EXPENSE</OriginalDocumentType>
@@ -33,13 +33,13 @@
     <DocumentURL>https://cloud.mediusflow.com/mediusflowfxQA/#Tasks/ShowDocument/33</DocumentURL>
     <InvoiceDate>2018-02-02T00:00:00Z</InvoiceDate>
     <InvoiceNumber>Invoice1</InvoiceNumber>
-    <NetAmount>10</NetAmount>
+    <NetAmount>10.0</NetAmount>
     <PaymentTerm>1</PaymentTerm>
     <PreferredPaymentDate>2018-02-03T00:00:00Z</PreferredPaymentDate>
     <PreliminaryBookingDate>2018-02-02T00:00:00Z</PreliminaryBookingDate>
     <PreliminaryVoucherNumber />
     <FinalVoucherNumber />
-    <RoundingAmount>0</RoundingAmount>
+    <RoundingAmount>0.0</RoundingAmount>
     <SupplierExternalSystemId>company[GBSI];MyExampleSupplierName_Id</SupplierExternalSystemId>
     <SupplierId>MyExampleSupplierName_Id</SupplierId>
     <SupplierIdentifiers>
@@ -73,28 +73,31 @@
       </IntegrationSupplierIdentifier>
     </SupplierIdentifiers>
     <SupplierName>MyExampleSupplierName</SupplierName>
-    <TaxAmount>0</TaxAmount>
-    <TotalAmount>10</TotalAmount>
-    <TotalCodedNetAmount>0</TotalCodedNetAmount>
-    <TotalCodedTaxAmount>0</TotalCodedTaxAmount>
+    <TaxAmount>0.0</TaxAmount>
+    <TotalAmount>10.0</TotalAmount>
+    <TotalCodedNetAmount>0.0</TotalCodedNetAmount>
+    <TotalCodedTaxAmount>0.0</TotalCodedTaxAmount>
     <InvoiceLines>
       <IntegrationSupplierInvoiceLine>
-        <Amount>10</Amount>
+        <Amount>10.0</Amount>
         <LineNumber>1</LineNumber>
-        <Quantity>1</Quantity>
+        <Quantity>1.0</Quantity>
         <QuantityUnit>-</QuantityUnit>
-        <UnitPrice>10</UnitPrice>
+        <UnitPrice>10.0</UnitPrice>
       </IntegrationSupplierInvoiceLine>
     </InvoiceLines>
     <CodingLines>
       <IntegrationCodingLine>
         <Dimensions />
-        <Amount>10</Amount>
-        <GrossAmount>10</GrossAmount>
+        <Amount>10.0</Amount>
+        <GrossAmount>10.0</GrossAmount>
         <InvoiceLineNumber>1</InvoiceLineNumber>
         <CodingLineNumber>1</CodingLineNumber>
         <IsEnabled>true</IsEnabled>
         <Tag />
+        <LastApproverFirstName>AP</LastApproverFirstName>
+        <LastApproverLastName>User</LastApproverLastName>
+        <LastApproverUserName>APUser</LastApproverUserName>
       </IntegrationCodingLine>
     </CodingLines>
     <TaxLines />

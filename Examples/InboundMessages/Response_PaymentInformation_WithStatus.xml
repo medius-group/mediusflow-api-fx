@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<IntegrationResponseMessage>
+  <CompanyId>LC</CompanyId>
+  <SupplierId>TSC1</SupplierId>
+  <InvoiceNumber>331223344</InvoiceNumber>
+  <InvoiceDate>2016-10-07</InvoiceDate>
+  <Identifier>a2</Identifier>
+  <ExternalIdentifier>a2</ExternalIdentifier>
+  <PaymentDate>2019-10-07</PaymentDate>
+  <Amount>1</Amount>
+  <Method>BankTransfer</Method>
+  <Status>Partial</Status>
+</IntegrationResponseMessage>

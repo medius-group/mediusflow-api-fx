@@ -45,6 +45,11 @@
       <xs:element name="CustomField_DateTime3" nillable="true" type="xs:dateTime" minOccurs="0" />
       <xs:element name="CustomField_DateTime4" nillable="true" type="xs:dateTime" minOccurs="0" />
       <xs:element name="CustomField_DateTime5" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CustomField_List1" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_List2" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_List3" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_List4" type="xs:string" minOccurs="0" />
+      <xs:element name="CustomField_List5" type="xs:string" minOccurs="0" />
       <xs:element name="CompanyCustomField_Boolean1" nillable="true" type="xs:boolean" minOccurs="0" />
       <xs:element name="CompanyCustomField_Boolean2" nillable="true" type="xs:boolean" minOccurs="0" />
       <xs:element name="CompanyCustomField_Boolean3" nillable="true" type="xs:boolean" minOccurs="0" />
@@ -152,6 +157,10 @@
       <xs:element name="PaymentDetailCustomField_DateTime3" nillable="true" type="xs:dateTime" minOccurs="0" />
       <xs:element name="PaymentDetailCustomField_DateTime4" nillable="true" type="xs:dateTime" minOccurs="0" />
       <xs:element name="PaymentDetailCustomField_DateTime5" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CashDiscountDueDate1" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="CashDiscountDueDate2" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="ReceivedDate" nillable="true" type="xs:dateTime" minOccurs="0" />
+      <xs:element name="VatDate" nillable="true" type="xs:dateTime" minOccurs="0" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="IntegrationBalanceCodeString">
@@ -257,6 +266,9 @@
       <xs:element name="IsEnabled" type="xs:boolean" />
       <xs:element name="Tag" type="xs:string" minOccurs="0" />
       <xs:element name="POConnectionLineNumbers" type="ArrayOfInt" minOccurs="0" />
+      <xs:element name="LastApproverFirstName" type="xs:string" minOccurs="0" />
+      <xs:element name="LastApproverLastName" type="xs:string" minOccurs="0" />
+      <xs:element name="LastApproverUserName" type="xs:string" minOccurs="0" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="IntegrationAccrualInformation">

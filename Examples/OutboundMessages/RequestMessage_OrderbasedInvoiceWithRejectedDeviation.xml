@@ -7,27 +7,35 @@
     <DocumentId>52</DocumentId>
     <BalanceCodeString>
       <Dimensions />
-      <Amount>110</Amount>
+      <Amount>110.0</Amount>
     </BalanceCodeString>
     <CompanyExternalSystemId>company[LC]</CompanyExternalSystemId>
     <CompanyId>LC</CompanyId>
-    <CompanyName>Large Corp</CompanyName>
+    <CompanyName>Large Corp(FX)</CompanyName>
     <CompanyIdentifiers>
       <IntegrationCompanyIdentifier>
         <IdentifierType>ExternalSystemIdentifier</IdentifierType>
         <IdentifierValue>company[LC]</IdentifierValue>
       </IntegrationCompanyIdentifier>
       <IntegrationCompanyIdentifier>
-        <IdentifierType>CompanyNameIdentifier</IdentifierType>
+        <IdentifierType>OTHER</IdentifierType>
         <IdentifierValue>Large Corp</IdentifierValue>
+      </IntegrationCompanyIdentifier>
+      <IntegrationCompanyIdentifier>
+        <IdentifierType>CompanyNameIdentifier</IdentifierType>
+        <IdentifierValue>Large Corp(FX)</IdentifierValue>
+      </IntegrationCompanyIdentifier>
+      <IntegrationCompanyIdentifier>
+        <IdentifierType>CompanyIdIdentifier</IdentifierType>
+        <IdentifierValue>LC</IdentifierValue>
       </IntegrationCompanyIdentifier>
     </CompanyIdentifiers>
     <CompanyOrganizationNumber>123456-1234</CompanyOrganizationNumber>
-    <ConnectedAmount>100</ConnectedAmount>
-    <ConnectedQuantity>11</ConnectedQuantity>
+    <ConnectedAmount>100.0</ConnectedAmount>
+    <ConnectedQuantity>11.0</ConnectedQuantity>
     <CurrencyCode>USD</CurrencyCode>
     <CurrencyExternalSystemId>USD</CurrencyExternalSystemId>
-    <CurrencyRate>1</CurrencyRate>
+    <CurrencyRate>1.0</CurrencyRate>
     <IsCurrencyRateImported>false</IsCurrencyRateImported>
     <OriginalDocumentType>ORDER_BASED</OriginalDocumentType>
     <DueDate>2018-02-28T00:00:00Z</DueDate>
@@ -36,13 +44,13 @@
     <DocumentURL>https://cloud.mediusflow.com/mediusflowfxQA/#Tasks/ShowDocument/52</DocumentURL>
     <InvoiceDate>2018-02-27T00:00:00Z</InvoiceDate>
     <InvoiceNumber>POInv22334455</InvoiceNumber>
-    <NetAmount>110</NetAmount>
+    <NetAmount>110.0</NetAmount>
     <PaymentTerm>1</PaymentTerm>
     <PreferredPaymentDate>2018-02-28T00:00:00Z</PreferredPaymentDate>
     <PreliminaryBookingDate>2018-02-27T00:00:00Z</PreliminaryBookingDate>
     <PreliminaryVoucherNumber />
     <FinalVoucherNumber />
-    <RoundingAmount>0</RoundingAmount>
+    <RoundingAmount>0.0</RoundingAmount>
     <SupplierExternalSystemId>company[LC];TSC1</SupplierExternalSystemId>
     <SupplierId>TSC1</SupplierId>
     <SupplierIdentifiers>
@@ -56,27 +64,27 @@
       </IntegrationSupplierIdentifier>
     </SupplierIdentifiers>
     <SupplierName>The service company</SupplierName>
-    <TaxAmount>20</TaxAmount>
-    <TotalAmount>130</TotalAmount>
-    <TotalCodedNetAmount>130</TotalCodedNetAmount>
-    <TotalCodedTaxAmount>0</TotalCodedTaxAmount>
+    <TaxAmount>20.0</TaxAmount>
+    <TotalAmount>130.0</TotalAmount>
+    <TotalCodedNetAmount>130.0</TotalCodedNetAmount>
+    <TotalCodedTaxAmount>0.0</TotalCodedTaxAmount>
     <ERPId>FX</ERPId>
     <InvoiceLines>
       <IntegrationSupplierInvoiceLine>
-        <Amount>20</Amount>
+        <Amount>20.0</Amount>
         <ItemNumber>123334</ItemNumber>
         <LineNumber>1</LineNumber>
-        <Quantity>10</Quantity>
+        <Quantity>10.0</Quantity>
         <QuantityUnit>-</QuantityUnit>
-        <UnitPrice>2</UnitPrice>
+        <UnitPrice>2.0</UnitPrice>
       </IntegrationSupplierInvoiceLine>
       <IntegrationSupplierInvoiceLine>
-        <Amount>90</Amount>
+        <Amount>90.0</Amount>
         <ItemNumber>123333</ItemNumber>
         <LineNumber>2</LineNumber>
-        <Quantity>1</Quantity>
+        <Quantity>1.0</Quantity>
         <QuantityUnit>-</QuantityUnit>
-        <UnitPrice>90</UnitPrice>
+        <UnitPrice>90.0</UnitPrice>
       </IntegrationSupplierInvoiceLine>
     </InvoiceLines>
     <CodingLines>
@@ -84,8 +92,8 @@
         <Dimensions>
           <Dimension1>PO Coding</Dimension1>
         </Dimensions>
-        <Amount>10</Amount>
-        <GrossAmount>10</GrossAmount>
+        <Amount>10.0</Amount>
+        <GrossAmount>10.0</GrossAmount>
         <InvoiceLineNumber>1</InvoiceLineNumber>
         <CodingLineNumber>1</CodingLineNumber>
         <TaxIndicator1>P25</TaxIndicator1>
@@ -99,8 +107,8 @@
         <Dimensions>
           <Dimension1>PO Coding</Dimension1>
         </Dimensions>
-        <Amount>90</Amount>
-        <GrossAmount>90</GrossAmount>
+        <Amount>90.0</Amount>
+        <GrossAmount>90.0</GrossAmount>
         <InvoiceLineNumber>2</InvoiceLineNumber>
         <CodingLineNumber>2</CodingLineNumber>
         <TaxIndicator1>P25</TaxIndicator1>
@@ -114,8 +122,8 @@
         <Dimensions>
           <Dimension1>4040</Dimension1>
         </Dimensions>
-        <Amount>30</Amount>
-        <GrossAmount>30</GrossAmount>
+        <Amount>30.0</Amount>
+        <GrossAmount>30.0</GrossAmount>
         <InvoiceLineNumber xsi:nil="true" />
         <CodingLineNumber>3</CodingLineNumber>
         <TaxIndicator1>Zero</TaxIndicator1>
@@ -129,12 +137,12 @@
         <Dimensions>
           <Dimension1>2440</Dimension1>
         </Dimensions>
-        <Amount>0</Amount>
-        <NetAmount>10</NetAmount>
-        <GrossAmount>10</GrossAmount>
+        <Amount>0.0</Amount>
+        <NetAmount>10.0</NetAmount>
+        <GrossAmount>10.0</GrossAmount>
         <CodingLineNumber>1</CodingLineNumber>
-        <DeductiblePercentage>0</DeductiblePercentage>
-        <Percentage>25</Percentage>
+        <DeductiblePercentage>100.0</DeductiblePercentage>
+        <Percentage>25.0</Percentage>
         <TaxCode>25</TaxCode>
         <TaxLineNumber>1</TaxLineNumber>
         <TaxIndicator1>P25</TaxIndicator1>
@@ -143,12 +151,12 @@
         <Dimensions>
           <Dimension1>2440</Dimension1>
         </Dimensions>
-        <Amount>0</Amount>
-        <NetAmount>90</NetAmount>
-        <GrossAmount>90</GrossAmount>
+        <Amount>0.0</Amount>
+        <NetAmount>90.0</NetAmount>
+        <GrossAmount>90.0</GrossAmount>
         <CodingLineNumber>2</CodingLineNumber>
-        <DeductiblePercentage>0</DeductiblePercentage>
-        <Percentage>25</Percentage>
+        <DeductiblePercentage>100.0</DeductiblePercentage>
+        <Percentage>25.0</Percentage>
         <TaxCode>25</TaxCode>
         <TaxLineNumber>2</TaxLineNumber>
         <TaxIndicator1>P25</TaxIndicator1>
@@ -159,12 +167,13 @@
         <LineNumber>1</LineNumber>
         <PurchaseOrderNumber>112233</PurchaseOrderNumber>
         <PurchaseOrderLineNumber>1000000</PurchaseOrderLineNumber>
+        <IsTwoWayMatch>false</IsTwoWayMatch>
         <ItemNumber>-</ItemNumber>
         <ItemDescription>Fruit stamps</ItemDescription>
-        <ConversionFactor>1</ConversionFactor>
-        <Quantity>10</Quantity>
+        <ConversionFactor>1.0</ConversionFactor>
+        <Quantity>10.0</Quantity>
         <Unit>-</Unit>
-        <UnitPrice>1</UnitPrice>
+        <UnitPrice>1.0</UnitPrice>
         <Reference />
         <OrderType>External</OrderType>
       </IntegrationPurchaseOrderLineInformation>
@@ -172,25 +181,26 @@
         <LineNumber>2</LineNumber>
         <PurchaseOrderNumber>112234</PurchaseOrderNumber>
         <PurchaseOrderLineNumber>1000000</PurchaseOrderLineNumber>
+        <IsTwoWayMatch>false</IsTwoWayMatch>
         <ItemNumber>-</ItemNumber>
         <ItemDescription>Fruit stamps</ItemDescription>
-        <ConversionFactor>1</ConversionFactor>
-        <Quantity>1</Quantity>
+        <ConversionFactor>1.0</ConversionFactor>
+        <Quantity>1.0</Quantity>
         <Unit>-</Unit>
-        <UnitPrice>90</UnitPrice>
+        <UnitPrice>90.0</UnitPrice>
         <Reference />
         <OrderType>External</OrderType>
       </IntegrationPurchaseOrderLineInformation>
     </POLines>
     <POConnectionLines>
       <IntegrationPurchaseOrderLineConnection>
-        <ConnectedAmount>10</ConnectedAmount>
-        <ConnectedQuantity>10</ConnectedQuantity>
+        <ConnectedAmount>10.0</ConnectedAmount>
+        <ConnectedQuantity>10.0</ConnectedQuantity>
         <ConnectionLevel>LineDetail</ConnectionLevel>
-        <ConversionFactor>0</ConversionFactor>
-        <DeliveredQuantity>10</DeliveredQuantity>
-        <DeliveredAmount>10</DeliveredAmount>
-        <DeliveredUnitPrice>1</DeliveredUnitPrice>
+        <ConversionFactor>0.0</ConversionFactor>
+        <DeliveredQuantity>10.0</DeliveredQuantity>
+        <DeliveredAmount>10.0</DeliveredAmount>
+        <DeliveredUnitPrice>1.0</DeliveredUnitPrice>
         <DeliveryDate>2009-03-25T00:00:00Z</DeliveryDate>
         <DeliveryNumber>LI000001;00000032</DeliveryNumber>
         <InvoiceLineNumber>1</InvoiceLineNumber>
@@ -201,16 +211,17 @@
         <CodingLineNumbers>
           <int>1</int>
         </CodingLineNumbers>
+        <DeliveryLineExternalSystemId>company[LC];112233;1000000;LI000001;00000032;</DeliveryLineExternalSystemId>
         <DeliveryLineIsFictive>false</DeliveryLineIsFictive>
       </IntegrationPurchaseOrderLineConnection>
       <IntegrationPurchaseOrderLineConnection>
-        <ConnectedAmount>90</ConnectedAmount>
-        <ConnectedQuantity>1</ConnectedQuantity>
+        <ConnectedAmount>90.0</ConnectedAmount>
+        <ConnectedQuantity>1.0</ConnectedQuantity>
         <ConnectionLevel>LineDetail</ConnectionLevel>
-        <ConversionFactor>0</ConversionFactor>
-        <DeliveredQuantity>1</DeliveredQuantity>
-        <DeliveredAmount>90</DeliveredAmount>
-        <DeliveredUnitPrice>90</DeliveredUnitPrice>
+        <ConversionFactor>0.0</ConversionFactor>
+        <DeliveredQuantity>1.0</DeliveredQuantity>
+        <DeliveredAmount>90.0</DeliveredAmount>
+        <DeliveredUnitPrice>90.0</DeliveredUnitPrice>
         <DeliveryDate>2009-03-25T00:00:00Z</DeliveryDate>
         <DeliveryNote>22223</DeliveryNote>
         <DeliveryNumber>LI000001;00000032</DeliveryNumber>
@@ -222,6 +233,7 @@
         <CodingLineNumbers>
           <int>2</int>
         </CodingLineNumbers>
+        <DeliveryLineExternalSystemId>company[LC];112234;1000000;LI000001;00000032;</DeliveryLineExternalSystemId>
         <DeliveryLineIsFictive>false</DeliveryLineIsFictive>
       </IntegrationPurchaseOrderLineConnection>
     </POConnectionLines>
@@ -230,7 +242,7 @@
         <ApprovalUserFirstName>Emil</ApprovalUserFirstName>
         <ApprovalUserLastName>W</ApprovalUserLastName>
         <ApprovalUserUsername>emilw</ApprovalUserUsername>
-        <DeviationAmount>1</DeviationAmount>
+        <DeviationAmount>1.0</DeviationAmount>
         <DeviationDays xsi:nil="true" />
         <DeviationQuantity xsi:nil="true" />
         <DeviationType>UnitPriceDeviation</DeviationType>

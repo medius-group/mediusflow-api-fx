@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema id="ArrayOfPurchaseOrder" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xs:schema id="ArrayOfPurchaseOrder" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
   <xs:element name="ArrayOfPurchaseOrder" msdata:IsDataSet="true" msdata:Locale="en-US">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -38,6 +38,7 @@
               <xs:element name="CustomField_Text5" type="xs:string" nillable="true" minOccurs="0" />
               <xs:element name="Reference" type="xs:string" minOccurs="0" />
               <xs:element name="Reference2" type="xs:string" minOccurs="0" />
+              <xs:element name="AdditionalOrderIdentifiers" type="ArrayOfAdditionalOrderIdentifiers" nillable="true" minOccurs="0" />
               <xs:element name="PurchaseOrderLines" minOccurs="0">
                 <xs:complexType>
                   <xs:choice minOccurs="1" maxOccurs="unbounded">
@@ -174,4 +175,9 @@
       </xs:choice>
     </xs:complexType>
   </xs:element>
+ <xs:complexType name="ArrayOfAdditionalOrderIdentifiers">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="AdditionalOrderIdentifier" type="xs:string" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
 </xs:schema>

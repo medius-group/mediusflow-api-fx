@@ -6,7 +6,7 @@
     <DocumentId>1944</DocumentId>
     <BalanceCodeString>
       <Dimensions />
-      <Amount>123</Amount>
+      <Amount>123.0</Amount>
     </BalanceCodeString>
     <CompanyExternalSystemId>company[CC]</CompanyExternalSystemId>
     <CompanyId>CC</CompanyId>
@@ -28,7 +28,7 @@
     <CompanyOrganizationNumber>123321</CompanyOrganizationNumber>
     <CurrencyCode>GBP</CurrencyCode>
     <CurrencyExternalSystemId>GBP</CurrencyExternalSystemId>
-    <CurrencyRate>1</CurrencyRate>
+    <CurrencyRate>1.0</CurrencyRate>
     <IsCurrencyRateImported>false</IsCurrencyRateImported>
     <OriginalDocumentType>EXPENSE</OriginalDocumentType>
     <DueDate>2020-02-21T00:00:00Z</DueDate>
@@ -37,13 +37,13 @@
     <DocumentURL>https://cloud.mediusflow.com/mediusflowfxQA/#Tasks/ShowDocument/1944</DocumentURL>
     <InvoiceDate>2020-02-20T00:00:00Z</InvoiceDate>
     <InvoiceNumber>Blablbabla123</InvoiceNumber>
-    <NetAmount>123</NetAmount>
+    <NetAmount>123.0</NetAmount>
     <PaymentTerm>1</PaymentTerm>
     <PreferredPaymentDate>2020-02-21T00:00:00Z</PreferredPaymentDate>
     <PreliminaryBookingDate>2020-02-20T00:00:00Z</PreliminaryBookingDate>
     <PreliminaryVoucherNumber />
     <FinalVoucherNumber />
-    <RoundingAmount>0</RoundingAmount>
+    <RoundingAmount>0.0</RoundingAmount>
     <SupplierExternalSystemId>company[V0];MyVirtualSupplierName_Id</SupplierExternalSystemId>
     <SupplierId>MyVirtualSupplierName_Id</SupplierId>
     <SupplierIdentifiers>
@@ -57,18 +57,18 @@
       </IntegrationSupplierIdentifier>
     </SupplierIdentifiers>
     <SupplierName>Virtual Supplier</SupplierName>
-    <TaxAmount>0</TaxAmount>
-    <TotalAmount>123</TotalAmount>
-    <TotalCodedNetAmount>123</TotalCodedNetAmount>
-    <TotalCodedTaxAmount>0</TotalCodedTaxAmount>
+    <TaxAmount>0.0</TaxAmount>
+    <TotalAmount>123.0</TotalAmount>
+    <TotalCodedNetAmount>123.0</TotalCodedNetAmount>
+    <TotalCodedTaxAmount>0.0</TotalCodedTaxAmount>
     <ERPId>FX</ERPId>
     <InvoiceLines>
       <IntegrationSupplierInvoiceLine>
-        <Amount>123</Amount>
+        <Amount>123.0</Amount>
         <LineNumber>1</LineNumber>
-        <Quantity>1</Quantity>
+        <Quantity>1.0</Quantity>
         <QuantityUnit>-</QuantityUnit>
-        <UnitPrice>123</UnitPrice>
+        <UnitPrice>123.0</UnitPrice>
       </IntegrationSupplierInvoiceLine>
     </InvoiceLines>
     <CodingLines>
@@ -76,8 +76,8 @@
         <Dimensions>
           <Dimension2>test</Dimension2>
         </Dimensions>
-        <Amount>123</Amount>
-        <GrossAmount>123</GrossAmount>
+        <Amount>123.0</Amount>
+        <GrossAmount>123.0</GrossAmount>
         <InvoiceLineNumber>1</InvoiceLineNumber>
         <CodingLineNumber>1</CodingLineNumber>
         <IsEnabled>true</IsEnabled>
