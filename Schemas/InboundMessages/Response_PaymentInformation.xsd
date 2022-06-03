@@ -17,9 +17,6 @@
               <xs:enumeration value="Cancel"/>
             </xs:restriction>
           </xs:simpleType>
-          <xs:annotation>
-            <xs:documentation xml:lang="en">Possible values: 'Partial', 'Final' and 'Cancel'</xs:documentation>
-          </xs:annotation>
         </xs:element>
         <xs:element name="Method" type="xs:string" minOccurs="0" nillable="true"/>
         <xs:element name="Identifier" type="xs:string" minOccurs="0" />
